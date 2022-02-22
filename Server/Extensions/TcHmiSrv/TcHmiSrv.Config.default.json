@@ -2401,6 +2401,19 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.MAIN.pbUserMode": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::MAIN::pbUserMode",
+            "OPTIONS": {
+                "comment": "UserMode"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.SingleCarrierMode.BottomPositionNew": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
@@ -2561,6 +2574,316 @@
             "MAPPING": "PLC1::TaperMode::btn_TaperStop",
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.Pos_LeftBottomLin_NoTaper": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::Pos_LeftBottomLin_NoTaper",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.Pos_LeftTopLin_NoTaper": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::Pos_LeftTopLin_NoTaper",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.Pos_RightBottomLin_NoTaper": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::Pos_RightBottomLin_NoTaper",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.Pos_RightTopLin_NoTaper": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::Pos_RightTopLin_NoTaper",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.State": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::State",
+            "OPTIONS": {
+                "comment": "Status"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/DINT"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.TargetLBPosLessThanCurrentLBPos": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::TargetLBPosLessThanCurrentLBPos",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.TargetLTPosLessThanCurrentLTPos": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::TargetLTPosLessThanCurrentLTPos",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.TargetPosLessThanCurrentPos": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::TargetPosLessThanCurrentPos",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.TargetRBPosLessThanCurrentRBPos": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::TargetRBPosLessThanCurrentRBPos",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.TargetRTPosLessThanCurrentRTPos": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::TargetRTPosLessThanCurrentRTPos",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.UserGapPositionDisplay": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::UserGapPositionDisplay",
+            "OPTIONS": {
+                "comment": "current"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.UserGapPositionDisplay_FromLeftBottom": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::UserGapPositionDisplay_FromLeftBottom",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.UserGapPositionDisplay_FromLeftTop": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::UserGapPositionDisplay_FromLeftTop",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.UserGapPositionNew": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::UserGapPositionNew",
+            "OPTIONS": {
+                "comment": "target"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.UserGapVelocityDisplay": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::UserGapVelocityDisplay",
+            "OPTIONS": {
+                "comment": "current"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.UserGapVelocityNew": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::UserGapVelocityNew",
+            "OPTIONS": {
+                "comment": "target"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.UserTaperPositionDisplay": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::UserTaperPositionDisplay",
+            "OPTIONS": {
+                "comment": "current"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.UserTaperPositionDisplay_FromRightBottom": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::UserTaperPositionDisplay_FromRightBottom",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.UserTaperPositionDisplay_FromRightTop": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::UserTaperPositionDisplay_FromRightTop",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.UserTaperPositionNew": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::UserTaperPositionNew",
+            "OPTIONS": {
+                "comment": "target"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.UserTaperVelocityDisplay": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::UserTaperVelocityDisplay",
+            "OPTIONS": {
+                "comment": "target"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.UserTaperVelocityNew": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::UserTaperVelocityNew",
+            "OPTIONS": {
+                "comment": "target"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.btn_Power": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::btn_Power",
+            "OPTIONS": {
+                "comment": "key Command"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.btn_PowerOff": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::btn_PowerOff",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.btn_PowerOn": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::btn_PowerOn",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.btn_UserGapMove": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::btn_UserGapMove",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.btn_UserGapStop": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::btn_UserGapStop",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.s_state": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::s_state",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/DINT"
             },
             "USEMAPPING": true
         },
@@ -3531,7 +3854,7 @@
     "USERSELECTTYPE": 0,
     "VIDEOSEGMENTSIZE": 1048576,
     "VIRTUALDIRECTORIES": {
-        "/": "..\\..\\HMI",
+        "/": "..\\..\\HEPSHMI",
         "/framework": "C:\\TwinCAT\\Functions\\TE2000-HMI-Engineering\\Infrastructure\\TcHmiFramework\\1.10.1342.0"
     }
 }

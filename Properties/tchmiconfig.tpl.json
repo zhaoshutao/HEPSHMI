@@ -3,7 +3,7 @@
   "basePath": "./Libraries",
   "locale": "client",
   "scaleMode": "None",
-  "startupView": "Desktop.view",
+  "startupView": "UserMode.view",
   "loginPage": null,
   "tcHmiServer": {
     "websocketIntervalTime": 500,
@@ -60,6 +60,10 @@
     },
     {
       "url": "TaperMode.view",
+      "preload": false
+    },
+    {
+      "url": "UserMode.view",
       "preload": false
     }
   ],
