@@ -2736,6 +2736,29 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.UserMode.StepEachTime": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::StepEachTime",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/TIME"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.StepEachTime_ms": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::StepEachTime_ms",
+            "OPTIONS": {
+                "comment": "ms"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/INT"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.UserMode.TargetLBPosLessThanCurrentLBPos": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
