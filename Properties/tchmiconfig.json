@@ -55,6 +55,10 @@
       "preload": false
     },
     {
+      "url": "Parameters.view",
+      "preload": false
+    },
+    {
       "url": "SingleCarrierMode.view",
       "preload": false
     },

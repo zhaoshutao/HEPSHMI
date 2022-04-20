@@ -1,0 +1,2107 @@
+﻿<div id="Parameters" 
+     data-tchmi-type="tchmi-view"
+     data-tchmi-top="0" data-tchmi-left="0"
+     data-tchmi-width-mode="Content"
+     data-tchmi-min-width="100" data-tchmi-min-width-unit="%"
+     data-tchmi-height-mode="Content"
+     data-tchmi-min-height="100" data-tchmi-min-height-unit="%"
+     data-tchmi-background-image-height="100" data-tchmi-background-image-width="100"
+     data-tchmi-background-image-height-unit="%" data-tchmi-background-image-width-unit="%" data-tchmi-zindex="1" data-tchmi-left-unit="px" data-tchmi-top-unit="px" data-tchmi-width-unit="px" data-tchmi-height-unit="px">
+
+<div id="TcHmiRectangle_36" data-tchmi-type="tchmi-rectangle" data-tchmi-height="328" data-tchmi-height-unit="px" data-tchmi-left="62" data-tchmi-left-unit="px" data-tchmi-top="48" data-tchmi-top-unit="px" data-tchmi-width="261" data-tchmi-width-unit="px" data-tchmi-zindex="0" data-tchmi-creator-locked="True">
+
+
+<script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+{
+  "color": "rgba(102, 164, 246, 1)"
+}
+</script>
+</div>
+
+<div id="TcHmiEllipse_59" data-tchmi-type="tchmi-ellipse" data-tchmi-height="22" data-tchmi-height-unit="px" data-tchmi-left="119" data-tchmi-left-unit="px" data-tchmi-top="89" data-tchmi-top-unit="px" data-tchmi-width="22" data-tchmi-width-unit="px" data-tchmi-zindex="1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "%s%PLC1.Global_Variables.KS_LeftTop_Far_Contact1%/s%",
+    "actions": [
+      {
+        "objectType": "Condition",
+        "active": true,
+        "expressions": [
+          {
+            "compare1": {
+              "objectType": "Symbol",
+              "symbolExpression": "%s%PLC1.Global_Variables.KS_LeftTop_Far_Contact1%/s%"
+            },
+            "compare2": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:general#/definitions/BOOL",
+              "value": false
+            },
+            "compareOperator": "==",
+            "logic": null
+          }
+        ],
+        "true": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_59::FillColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/Color",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/Color",
+              "value": {
+                "color": "rgba(253, 0, 0, 1)"
+              }
+            },
+            "asyncWait": true
+          },
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_59::StrokeColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/SolidColor",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/SolidColor",
+              "value": {
+                "color": "rgba(253, 0, 0, 1)"
+              }
+            },
+            "asyncWait": true
+          }
+        ],
+        "false": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_59::FillColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/Color",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/Color",
+              "value": {
+                "color": "rgba(18, 243, 54, 1)"
+              }
+            },
+            "asyncWait": true
+          },
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_59::StrokeColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/SolidColor",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/SolidColor",
+              "value": {
+                "color": "rgba(18, 243, 54, 1)"
+              }
+            },
+            "asyncWait": true
+          }
+        ],
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+
+
+
+
+
+</div>
+
+<div id="TcHmiEllipse_60" data-tchmi-type="tchmi-ellipse" data-tchmi-height="22" data-tchmi-height-unit="px" data-tchmi-left="119" data-tchmi-left-unit="px" data-tchmi-top="159" data-tchmi-top-unit="px" data-tchmi-width="22" data-tchmi-width-unit="px" data-tchmi-zindex="1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "%s%PLC1.Global_Variables.KS_LeftTop_Near_Contact1%/s%",
+    "actions": [
+      {
+        "objectType": "Condition",
+        "active": true,
+        "expressions": [
+          {
+            "compare1": {
+              "objectType": "Symbol",
+              "symbolExpression": "%s%PLC1.Global_Variables.KS_LeftTop_Near_Contact1%/s%"
+            },
+            "compare2": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:general#/definitions/BOOL",
+              "value": false
+            },
+            "compareOperator": "==",
+            "logic": null
+          }
+        ],
+        "true": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_60::FillColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/Color",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/Color",
+              "value": {
+                "color": "rgba(253, 0, 0, 1)"
+              }
+            },
+            "asyncWait": true
+          },
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_60::StrokeColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/SolidColor",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/SolidColor",
+              "value": {
+                "color": "rgba(253, 0, 0, 1)"
+              }
+            },
+            "asyncWait": true
+          }
+        ],
+        "false": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_60::FillColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/Color",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/Color",
+              "value": {
+                "color": "rgba(18, 243, 54, 1)"
+              }
+            },
+            "asyncWait": true
+          },
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_60::StrokeColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/SolidColor",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/SolidColor",
+              "value": {
+                "color": "rgba(18, 243, 54, 1)"
+              }
+            },
+            "asyncWait": true
+          }
+        ],
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+
+
+
+
+
+</div>
+
+<div id="TcHmiEllipse_61" data-tchmi-type="tchmi-ellipse" data-tchmi-height="22" data-tchmi-height-unit="px" data-tchmi-left="119" data-tchmi-left-unit="px" data-tchmi-top="181" data-tchmi-top-unit="px" data-tchmi-width="22" data-tchmi-width-unit="px" data-tchmi-zindex="1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "%s%PLC1.Global_Variables.KS_LeftTop_Near_Contact2%/s%",
+    "actions": [
+      {
+        "objectType": "Condition",
+        "active": true,
+        "expressions": [
+          {
+            "compare1": {
+              "objectType": "Symbol",
+              "symbolExpression": "%s%PLC1.Global_Variables.KS_LeftTop_Near_Contact2%/s%"
+            },
+            "compare2": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:general#/definitions/BOOL",
+              "value": false
+            },
+            "compareOperator": "==",
+            "logic": null
+          }
+        ],
+        "true": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_61::FillColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/Color",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/Color",
+              "value": {
+                "color": "rgba(253, 0, 0, 1)"
+              }
+            },
+            "asyncWait": true
+          },
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_61::StrokeColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/SolidColor",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/SolidColor",
+              "value": {
+                "color": "rgba(253, 0, 0, 1)"
+              }
+            },
+            "asyncWait": true
+          }
+        ],
+        "false": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_61::FillColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/Color",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/Color",
+              "value": {
+                "color": "rgba(18, 243, 54, 1)"
+              }
+            },
+            "asyncWait": true
+          },
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_61::StrokeColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/SolidColor",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/SolidColor",
+              "value": {
+                "color": "rgba(18, 243, 54, 1)"
+              }
+            },
+            "asyncWait": true
+          }
+        ],
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+
+
+
+
+
+</div>
+
+<div id="TcHmiEllipse_62" data-tchmi-type="tchmi-ellipse" data-tchmi-height="22" data-tchmi-height-unit="px" data-tchmi-left="119" data-tchmi-left-unit="px" data-tchmi-top="222" data-tchmi-top-unit="px" data-tchmi-width="22" data-tchmi-width-unit="px" data-tchmi-zindex="1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "%s%PLC1.Global_Variables.KS_LeftBottom_Near_Contact2%/s%",
+    "actions": [
+      {
+        "objectType": "Condition",
+        "active": true,
+        "expressions": [
+          {
+            "compare1": {
+              "objectType": "Symbol",
+              "symbolExpression": "%s%PLC1.Global_Variables.KS_LeftBottom_Near_Contact2%/s%"
+            },
+            "compare2": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:general#/definitions/BOOL",
+              "value": false
+            },
+            "compareOperator": "==",
+            "logic": null
+          }
+        ],
+        "true": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_62::FillColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/Color",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/Color",
+              "value": {
+                "color": "rgba(253, 0, 0, 1)"
+              }
+            },
+            "asyncWait": true
+          },
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_62::StrokeColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/SolidColor",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/SolidColor",
+              "value": {
+                "color": "rgba(253, 0, 0, 1)"
+              }
+            },
+            "asyncWait": true
+          }
+        ],
+        "false": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_62::FillColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/Color",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/Color",
+              "value": {
+                "color": "rgba(18, 243, 54, 1)"
+              }
+            },
+            "asyncWait": true
+          },
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_62::StrokeColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/SolidColor",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/SolidColor",
+              "value": {
+                "color": "rgba(18, 243, 54, 1)"
+              }
+            },
+            "asyncWait": true
+          }
+        ],
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+
+
+
+
+
+</div>
+
+<div id="TcHmiEllipse_63" data-tchmi-type="tchmi-ellipse" data-tchmi-height="22" data-tchmi-height-unit="px" data-tchmi-left="119" data-tchmi-left-unit="px" data-tchmi-top="244" data-tchmi-top-unit="px" data-tchmi-width="22" data-tchmi-width-unit="px" data-tchmi-zindex="1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "%s%PLC1.Global_Variables.KS_LeftBottom_Near_Contact1%/s%",
+    "actions": [
+      {
+        "objectType": "Condition",
+        "active": true,
+        "expressions": [
+          {
+            "compare1": {
+              "objectType": "Symbol",
+              "symbolExpression": "%s%PLC1.Global_Variables.KS_LeftBottom_Near_Contact1%/s%"
+            },
+            "compare2": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:general#/definitions/BOOL",
+              "value": false
+            },
+            "compareOperator": "==",
+            "logic": null
+          }
+        ],
+        "true": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_63::FillColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/Color",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/Color",
+              "value": {
+                "color": "rgba(253, 0, 0, 1)"
+              }
+            },
+            "asyncWait": true
+          },
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_63::StrokeColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/SolidColor",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/SolidColor",
+              "value": {
+                "color": "rgba(253, 0, 0, 1)"
+              }
+            },
+            "asyncWait": true
+          }
+        ],
+        "false": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_63::FillColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/Color",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/Color",
+              "value": {
+                "color": "rgba(18, 243, 54, 1)"
+              }
+            },
+            "asyncWait": true
+          },
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_63::StrokeColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/SolidColor",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/SolidColor",
+              "value": {
+                "color": "rgba(18, 243, 54, 1)"
+              }
+            },
+            "asyncWait": true
+          }
+        ],
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+
+
+
+
+
+</div>
+
+<div id="TcHmiEllipse_64" data-tchmi-type="tchmi-ellipse" data-tchmi-height="22" data-tchmi-height-unit="px" data-tchmi-left="119" data-tchmi-left-unit="px" data-tchmi-top="314" data-tchmi-top-unit="px" data-tchmi-width="22" data-tchmi-width-unit="px" data-tchmi-zindex="1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "%s%PLC1.Global_Variables.KS_LeftBottom_Far_Contact1%/s%",
+    "actions": [
+      {
+        "objectType": "Condition",
+        "active": true,
+        "expressions": [
+          {
+            "compare1": {
+              "objectType": "Symbol",
+              "symbolExpression": "%s%PLC1.Global_Variables.KS_LeftBottom_Far_Contact1%/s%"
+            },
+            "compare2": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:general#/definitions/BOOL",
+              "value": false
+            },
+            "compareOperator": "==",
+            "logic": null
+          }
+        ],
+        "true": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_64::FillColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/Color",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/Color",
+              "value": {
+                "color": "rgba(253, 0, 0, 1)"
+              }
+            },
+            "asyncWait": true
+          },
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_64::StrokeColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/SolidColor",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/SolidColor",
+              "value": {
+                "color": "rgba(253, 0, 0, 1)"
+              }
+            },
+            "asyncWait": true
+          }
+        ],
+        "false": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_64::FillColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/Color",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/Color",
+              "value": {
+                "color": "rgba(18, 243, 54, 1)"
+              }
+            },
+            "asyncWait": true
+          },
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_64::StrokeColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/SolidColor",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/SolidColor",
+              "value": {
+                "color": "rgba(18, 243, 54, 1)"
+              }
+            },
+            "asyncWait": true
+          }
+        ],
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+
+
+
+
+
+</div>
+
+<div id="TcHmiEllipse_65" data-tchmi-type="tchmi-ellipse" data-tchmi-height="22" data-tchmi-height-unit="px" data-tchmi-left="119" data-tchmi-left-unit="px" data-tchmi-top="336" data-tchmi-top-unit="px" data-tchmi-width="22" data-tchmi-width-unit="px" data-tchmi-zindex="1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "%s%PLC1.Global_Variables.KS_LeftBottom_Far_Contact2%/s%",
+    "actions": [
+      {
+        "objectType": "Condition",
+        "active": true,
+        "expressions": [
+          {
+            "compare1": {
+              "objectType": "Symbol",
+              "symbolExpression": "%s%PLC1.Global_Variables.KS_LeftBottom_Far_Contact2%/s%"
+            },
+            "compare2": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:general#/definitions/BOOL",
+              "value": false
+            },
+            "compareOperator": "==",
+            "logic": null
+          }
+        ],
+        "true": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_65::FillColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/Color",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/Color",
+              "value": {
+                "color": "rgba(253, 0, 0, 1)"
+              }
+            },
+            "asyncWait": true
+          },
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_65::StrokeColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/SolidColor",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/SolidColor",
+              "value": {
+                "color": "rgba(253, 0, 0, 1)"
+              }
+            },
+            "asyncWait": true
+          }
+        ],
+        "false": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_65::FillColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/Color",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/Color",
+              "value": {
+                "color": "rgba(18, 243, 54, 1)"
+              }
+            },
+            "asyncWait": true
+          },
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_65::StrokeColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/SolidColor",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/SolidColor",
+              "value": {
+                "color": "rgba(18, 243, 54, 1)"
+              }
+            },
+            "asyncWait": true
+          }
+        ],
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+
+
+
+
+
+</div>
+
+<div id="TcHmiEllipse_66" data-tchmi-type="tchmi-ellipse" data-tchmi-height="22" data-tchmi-height-unit="px" data-tchmi-left="235" data-tchmi-left-unit="px" data-tchmi-top="67" data-tchmi-top-unit="px" data-tchmi-width="22" data-tchmi-width-unit="px" data-tchmi-zindex="1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "%s%PLC1.Global_Variables.KS_RightTop_Far_Contact2%/s%",
+    "actions": [
+      {
+        "objectType": "Condition",
+        "active": true,
+        "expressions": [
+          {
+            "compare1": {
+              "objectType": "Symbol",
+              "symbolExpression": "%s%PLC1.Global_Variables.KS_RightTop_Far_Contact2%/s%"
+            },
+            "compare2": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:general#/definitions/BOOL",
+              "value": false
+            },
+            "compareOperator": "==",
+            "logic": null
+          }
+        ],
+        "true": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_66::FillColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/Color",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/Color",
+              "value": {
+                "color": "rgba(253, 0, 0, 1)"
+              }
+            },
+            "asyncWait": true
+          },
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_66::StrokeColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/SolidColor",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/SolidColor",
+              "value": {
+                "color": "rgba(253, 0, 0, 1)"
+              }
+            },
+            "asyncWait": true
+          }
+        ],
+        "false": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_66::FillColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/Color",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/Color",
+              "value": {
+                "color": "rgba(18, 243, 54, 1)"
+              }
+            },
+            "asyncWait": true
+          },
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_66::StrokeColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/SolidColor",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/SolidColor",
+              "value": {
+                "color": "rgba(18, 243, 54, 1)"
+              }
+            },
+            "asyncWait": true
+          }
+        ],
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+
+
+
+
+
+</div>
+
+<div id="TcHmiEllipse_67" data-tchmi-type="tchmi-ellipse" data-tchmi-height="22" data-tchmi-height-unit="px" data-tchmi-left="235" data-tchmi-left-unit="px" data-tchmi-top="89" data-tchmi-top-unit="px" data-tchmi-width="22" data-tchmi-width-unit="px" data-tchmi-zindex="1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "%s%PLC1.Global_Variables.KS_RightTop_Far_Contact1%/s%",
+    "actions": [
+      {
+        "objectType": "Condition",
+        "active": true,
+        "expressions": [
+          {
+            "compare1": {
+              "objectType": "Symbol",
+              "symbolExpression": "%s%PLC1.Global_Variables.KS_RightTop_Far_Contact1%/s%"
+            },
+            "compare2": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:general#/definitions/BOOL",
+              "value": false
+            },
+            "compareOperator": "==",
+            "logic": null
+          }
+        ],
+        "true": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_67::FillColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/Color",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/Color",
+              "value": {
+                "color": "rgba(253, 0, 0, 1)"
+              }
+            },
+            "asyncWait": true
+          },
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_67::StrokeColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/SolidColor",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/SolidColor",
+              "value": {
+                "color": "rgba(253, 0, 0, 1)"
+              }
+            },
+            "asyncWait": true
+          }
+        ],
+        "false": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_67::FillColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/Color",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/Color",
+              "value": {
+                "color": "rgba(18, 243, 54, 1)"
+              }
+            },
+            "asyncWait": true
+          },
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_67::StrokeColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/SolidColor",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/SolidColor",
+              "value": {
+                "color": "rgba(18, 243, 54, 1)"
+              }
+            },
+            "asyncWait": true
+          }
+        ],
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+
+
+
+
+
+</div>
+
+<div id="TcHmiEllipse_68" data-tchmi-type="tchmi-ellipse" data-tchmi-height="22" data-tchmi-height-unit="px" data-tchmi-left="235" data-tchmi-left-unit="px" data-tchmi-top="159" data-tchmi-top-unit="px" data-tchmi-width="22" data-tchmi-width-unit="px" data-tchmi-zindex="1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "%s%PLC1.Global_Variables.KS_RightTop_Near_Contact1%/s%",
+    "actions": [
+      {
+        "objectType": "Condition",
+        "active": true,
+        "expressions": [
+          {
+            "compare1": {
+              "objectType": "Symbol",
+              "symbolExpression": "%s%PLC1.Global_Variables.KS_RightTop_Near_Contact1%/s%"
+            },
+            "compare2": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:general#/definitions/BOOL",
+              "value": false
+            },
+            "compareOperator": "==",
+            "logic": null
+          }
+        ],
+        "true": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_68::FillColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/Color",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/Color",
+              "value": {
+                "color": "rgba(253, 0, 0, 1)"
+              }
+            },
+            "asyncWait": true
+          },
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_68::StrokeColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/SolidColor",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/SolidColor",
+              "value": {
+                "color": "rgba(253, 0, 0, 1)"
+              }
+            },
+            "asyncWait": true
+          }
+        ],
+        "false": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_68::FillColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/Color",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/Color",
+              "value": {
+                "color": "rgba(18, 243, 54, 1)"
+              }
+            },
+            "asyncWait": true
+          },
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_68::StrokeColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/SolidColor",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/SolidColor",
+              "value": {
+                "color": "rgba(18, 243, 54, 1)"
+              }
+            },
+            "asyncWait": true
+          }
+        ],
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+
+
+
+
+
+</div>
+
+<div id="TcHmiEllipse_69" data-tchmi-type="tchmi-ellipse" data-tchmi-height="22" data-tchmi-height-unit="px" data-tchmi-left="235" data-tchmi-left-unit="px" data-tchmi-top="181" data-tchmi-top-unit="px" data-tchmi-width="22" data-tchmi-width-unit="px" data-tchmi-zindex="1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "%s%PLC1.Global_Variables.KS_RightTop_Near_Contact2%/s%",
+    "actions": [
+      {
+        "objectType": "Condition",
+        "active": true,
+        "expressions": [
+          {
+            "compare1": {
+              "objectType": "Symbol",
+              "symbolExpression": "%s%PLC1.Global_Variables.KS_RightTop_Near_Contact2%/s%"
+            },
+            "compare2": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:general#/definitions/BOOL",
+              "value": false
+            },
+            "compareOperator": "==",
+            "logic": null
+          }
+        ],
+        "true": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_69::FillColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/Color",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/Color",
+              "value": {
+                "color": "rgba(253, 0, 0, 1)"
+              }
+            },
+            "asyncWait": true
+          },
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_69::StrokeColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/SolidColor",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/SolidColor",
+              "value": {
+                "color": "rgba(253, 0, 0, 1)"
+              }
+            },
+            "asyncWait": true
+          }
+        ],
+        "false": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_69::FillColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/Color",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/Color",
+              "value": {
+                "color": "rgba(18, 243, 54, 1)"
+              }
+            },
+            "asyncWait": true
+          },
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_69::StrokeColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/SolidColor",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/SolidColor",
+              "value": {
+                "color": "rgba(18, 243, 54, 1)"
+              }
+            },
+            "asyncWait": true
+          }
+        ],
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+
+
+
+
+
+</div>
+
+<div id="TcHmiEllipse_70" data-tchmi-type="tchmi-ellipse" data-tchmi-height="22" data-tchmi-height-unit="px" data-tchmi-left="235" data-tchmi-left-unit="px" data-tchmi-top="222" data-tchmi-top-unit="px" data-tchmi-width="22" data-tchmi-width-unit="px" data-tchmi-zindex="1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "%s%PLC1.Global_Variables.KS_RightBottom_Near_Contact2%/s%",
+    "actions": [
+      {
+        "objectType": "Condition",
+        "active": true,
+        "expressions": [
+          {
+            "compare1": {
+              "objectType": "Symbol",
+              "symbolExpression": "%s%PLC1.Global_Variables.KS_RightBottom_Near_Contact2%/s%"
+            },
+            "compare2": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:general#/definitions/BOOL",
+              "value": false
+            },
+            "compareOperator": "==",
+            "logic": null
+          }
+        ],
+        "true": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_70::FillColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/Color",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/Color",
+              "value": {
+                "color": "rgba(253, 0, 0, 1)"
+              }
+            },
+            "asyncWait": true
+          },
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_70::StrokeColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/SolidColor",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/SolidColor",
+              "value": {
+                "color": "rgba(253, 0, 0, 1)"
+              }
+            },
+            "asyncWait": true
+          }
+        ],
+        "false": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_70::FillColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/Color",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/Color",
+              "value": {
+                "color": "rgba(18, 243, 54, 1)"
+              }
+            },
+            "asyncWait": true
+          },
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_70::StrokeColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/SolidColor",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/SolidColor",
+              "value": {
+                "color": "rgba(18, 243, 54, 1)"
+              }
+            },
+            "asyncWait": true
+          }
+        ],
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+
+
+
+
+
+</div>
+
+<div id="TcHmiEllipse_71" data-tchmi-type="tchmi-ellipse" data-tchmi-height="22" data-tchmi-height-unit="px" data-tchmi-left="235" data-tchmi-left-unit="px" data-tchmi-top="244" data-tchmi-top-unit="px" data-tchmi-width="22" data-tchmi-width-unit="px" data-tchmi-zindex="1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "%s%PLC1.Global_Variables.KS_RightBottom_Near_Contact1%/s%",
+    "actions": [
+      {
+        "objectType": "Condition",
+        "active": true,
+        "expressions": [
+          {
+            "compare1": {
+              "objectType": "Symbol",
+              "symbolExpression": "%s%PLC1.Global_Variables.KS_RightBottom_Near_Contact1%/s%"
+            },
+            "compare2": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:general#/definitions/BOOL",
+              "value": false
+            },
+            "compareOperator": "==",
+            "logic": null
+          }
+        ],
+        "true": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_71::FillColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/Color",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/Color",
+              "value": {
+                "color": "rgba(253, 0, 0, 1)"
+              }
+            },
+            "asyncWait": true
+          },
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_71::StrokeColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/SolidColor",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/SolidColor",
+              "value": {
+                "color": "rgba(253, 0, 0, 1)"
+              }
+            },
+            "asyncWait": true
+          }
+        ],
+        "false": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_71::FillColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/Color",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/Color",
+              "value": {
+                "color": "rgba(18, 243, 54, 1)"
+              }
+            },
+            "asyncWait": true
+          },
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_71::StrokeColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/SolidColor",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/SolidColor",
+              "value": {
+                "color": "rgba(18, 243, 54, 1)"
+              }
+            },
+            "asyncWait": true
+          }
+        ],
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+
+
+
+
+
+</div>
+
+<div id="TcHmiEllipse_72" data-tchmi-type="tchmi-ellipse" data-tchmi-height="22" data-tchmi-height-unit="px" data-tchmi-left="235" data-tchmi-left-unit="px" data-tchmi-top="310" data-tchmi-top-unit="px" data-tchmi-width="22" data-tchmi-width-unit="px" data-tchmi-zindex="1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "%s%PLC1.Global_Variables.KS_RightBottom_Far_Contact1%/s%",
+    "actions": [
+      {
+        "objectType": "Condition",
+        "active": true,
+        "expressions": [
+          {
+            "compare1": {
+              "objectType": "Symbol",
+              "symbolExpression": "%s%PLC1.Global_Variables.KS_RightBottom_Far_Contact1%/s%"
+            },
+            "compare2": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:general#/definitions/BOOL",
+              "value": false
+            },
+            "compareOperator": "==",
+            "logic": null
+          }
+        ],
+        "true": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_72::FillColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/Color",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/Color",
+              "value": {
+                "color": "rgba(253, 0, 0, 1)"
+              }
+            },
+            "asyncWait": true
+          },
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_72::StrokeColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/SolidColor",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/SolidColor",
+              "value": {
+                "color": "rgba(253, 0, 0, 1)"
+              }
+            },
+            "asyncWait": true
+          }
+        ],
+        "false": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_72::FillColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/Color",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/Color",
+              "value": {
+                "color": "rgba(18, 243, 54, 1)"
+              }
+            },
+            "asyncWait": true
+          },
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_72::StrokeColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/SolidColor",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/SolidColor",
+              "value": {
+                "color": "rgba(18, 243, 54, 1)"
+              }
+            },
+            "asyncWait": true
+          }
+        ],
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+
+
+
+
+
+</div>
+
+<div id="TcHmiEllipse_73" data-tchmi-type="tchmi-ellipse" data-tchmi-height="22" data-tchmi-height-unit="px" data-tchmi-left="235" data-tchmi-left-unit="px" data-tchmi-top="336" data-tchmi-top-unit="px" data-tchmi-width="22" data-tchmi-width-unit="px" data-tchmi-zindex="1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "%s%PLC1.Global_Variables.KS_RightBottom_Far_Contact2%/s%",
+    "actions": [
+      {
+        "objectType": "Condition",
+        "active": true,
+        "expressions": [
+          {
+            "compare1": {
+              "objectType": "Symbol",
+              "symbolExpression": "%s%PLC1.Global_Variables.KS_RightBottom_Far_Contact2%/s%"
+            },
+            "compare2": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:general#/definitions/BOOL",
+              "value": false
+            },
+            "compareOperator": "==",
+            "logic": null
+          }
+        ],
+        "true": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_73::FillColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/Color",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/Color",
+              "value": {
+                "color": "rgba(253, 0, 0, 1)"
+              }
+            },
+            "asyncWait": true
+          },
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_73::StrokeColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/SolidColor",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/SolidColor",
+              "value": {
+                "color": "rgba(253, 0, 0, 1)"
+              }
+            },
+            "asyncWait": true
+          }
+        ],
+        "false": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_73::FillColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/Color",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/Color",
+              "value": {
+                "color": "rgba(18, 243, 54, 1)"
+              }
+            },
+            "asyncWait": true
+          },
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_73::StrokeColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/SolidColor",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/SolidColor",
+              "value": {
+                "color": "rgba(18, 243, 54, 1)"
+              }
+            },
+            "asyncWait": true
+          }
+        ],
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+
+
+
+
+
+</div>
+
+<div id="TcHmiTextblock_96" data-tchmi-type="tchmi-textblock" data-tchmi-height="21" data-tchmi-height-unit="px" data-tchmi-left="73" data-tchmi-left-unit="px" data-tchmi-text="入上远" data-tchmi-top="79" data-tchmi-top-unit="px" data-tchmi-width="46" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="1" data-tchmi-text-font-style="Italic" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size-unit="px">
+
+
+
+
+
+</div>
+
+<div id="TcHmiTextblock_97" data-tchmi-type="tchmi-textblock" data-tchmi-height="21" data-tchmi-height-unit="px" data-tchmi-left="73" data-tchmi-left-unit="px" data-tchmi-text="入上近" data-tchmi-top="170" data-tchmi-top-unit="px" data-tchmi-width="46" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="1" data-tchmi-text-font-style="Italic" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size-unit="px">
+
+
+
+
+
+</div>
+
+<div id="TcHmiTextblock_98" data-tchmi-type="tchmi-textblock" data-tchmi-height="21" data-tchmi-height-unit="px" data-tchmi-left="73" data-tchmi-left-unit="px" data-tchmi-text="入下远" data-tchmi-top="326" data-tchmi-top-unit="px" data-tchmi-width="46" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="1" data-tchmi-text-font-style="Italic" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size-unit="px">
+
+
+
+
+
+</div>
+
+<div id="TcHmiTextblock_99" data-tchmi-type="tchmi-textblock" data-tchmi-height="21" data-tchmi-height-unit="px" data-tchmi-left="73" data-tchmi-left-unit="px" data-tchmi-text="入下近" data-tchmi-top="232" data-tchmi-top-unit="px" data-tchmi-width="46" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="1" data-tchmi-text-font-style="Italic" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size-unit="px">
+
+
+
+
+
+</div>
+
+<div id="TcHmiTextblock_100" data-tchmi-type="tchmi-textblock" data-tchmi-height="21" data-tchmi-height-unit="px" data-tchmi-left="267" data-tchmi-left-unit="px" data-tchmi-text="出上远" data-tchmi-top="79" data-tchmi-top-unit="px" data-tchmi-width="46" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="1" data-tchmi-text-font-style="Italic" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size-unit="px">
+
+
+
+
+
+</div>
+
+<div id="TcHmiTextblock_101" data-tchmi-type="tchmi-textblock" data-tchmi-height="21" data-tchmi-height-unit="px" data-tchmi-left="267" data-tchmi-left-unit="px" data-tchmi-text="出上近" data-tchmi-top="170" data-tchmi-top-unit="px" data-tchmi-width="46" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="1" data-tchmi-text-font-style="Italic" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size-unit="px">
+
+
+
+
+
+</div>
+
+<div id="TcHmiTextblock_102" data-tchmi-type="tchmi-textblock" data-tchmi-height="21" data-tchmi-height-unit="px" data-tchmi-left="267" data-tchmi-left-unit="px" data-tchmi-text="出下近" data-tchmi-top="232" data-tchmi-top-unit="px" data-tchmi-width="46" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="1" data-tchmi-text-font-style="Italic" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size-unit="px">
+
+
+
+
+
+</div>
+
+<div id="TcHmiTextblock_103" data-tchmi-type="tchmi-textblock" data-tchmi-height="21" data-tchmi-height-unit="px" data-tchmi-left="267" data-tchmi-left-unit="px" data-tchmi-text="出下远" data-tchmi-top="326" data-tchmi-top-unit="px" data-tchmi-width="46" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="1" data-tchmi-text-font-style="Italic" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size-unit="px">
+
+
+
+
+
+</div>
+
+<div id="TcHmiTextblock_104" data-tchmi-type="tchmi-textblock" data-tchmi-height="21" data-tchmi-height-unit="px" data-tchmi-left="62" data-tchmi-left-unit="px" data-tchmi-text="安全限位" data-tchmi-top="27" data-tchmi-top-unit="px" data-tchmi-width="74" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="1" data-tchmi-text-font-style="Italic" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size-unit="px" data-tchmi-creator-locked="True">
+
+
+
+
+
+</div>
+
+<div id="TcHmiButton_63" data-tchmi-type="tchmi-button" data-tchmi-height="42" data-tchmi-height-unit="px" data-tchmi-left="738" data-tchmi-left-unit="px" data-tchmi-text="回到主菜单" data-tchmi-top="536" data-tchmi-top-unit="px" data-tchmi-width="121" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size="15">
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "TcHmiButton_63.onPressed",
+    "actions": [
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "var v1 = TcHmi.View.get();\nTcHmi.Log.debug(v1.getId());\nTcHmi.View.load('Desktop.view', function (data) {\n\tvar v2 = TcHmi.View.get();\n\tTcHmi.Log.debug(v2.getId());\n});"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(197, 196, 196, 1)"
+}
+</script>
+</div>
+
+<div id="TcHmiRectangle_37" data-tchmi-type="tchmi-rectangle" data-tchmi-height="21" data-tchmi-height-unit="px" data-tchmi-left="73" data-tchmi-left-unit="px" data-tchmi-top="121" data-tchmi-top-unit="px" data-tchmi-width="225" data-tchmi-width-unit="px" data-tchmi-zindex="2">
+
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(48, 143, 180, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+{
+  "color": "rgba(48, 143, 180, 1)"
+}
+</script>
+</div>
+
+<div id="TcHmiRectangle_43" data-tchmi-type="tchmi-rectangle" data-tchmi-height="21" data-tchmi-height-unit="px" data-tchmi-left="73" data-tchmi-left-unit="px" data-tchmi-top="279" data-tchmi-top-unit="px" data-tchmi-width="225" data-tchmi-width-unit="px" data-tchmi-zindex="2">
+
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(48, 143, 180, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+{
+  "color": "rgba(48, 143, 180, 1)"
+}
+</script>
+</div>
+
+<div id="TcHmiRectangle_44" data-tchmi-type="tchmi-rectangle" data-tchmi-height="92" data-tchmi-height-unit="px" data-tchmi-left="146" data-tchmi-left-unit="px" data-tchmi-top="89" data-tchmi-top-unit="px" data-tchmi-width="14" data-tchmi-width-unit="px">
+
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(183, 177, 177, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+{
+  "color": "rgba(180, 171, 171, 1)"
+}
+</script>
+</div>
+
+<div id="TcHmiRectangle_45" data-tchmi-type="tchmi-rectangle" data-tchmi-height="92" data-tchmi-height-unit="px" data-tchmi-left="211" data-tchmi-left-unit="px" data-tchmi-top="89" data-tchmi-top-unit="px" data-tchmi-width="14" data-tchmi-width-unit="px">
+
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(183, 177, 177, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+{
+  "color": "rgba(180, 171, 171, 1)"
+}
+</script>
+</div>
+
+<div id="TcHmiRectangle_46" data-tchmi-type="tchmi-rectangle" data-tchmi-height="92" data-tchmi-height-unit="px" data-tchmi-left="146" data-tchmi-left-unit="px" data-tchmi-top="244" data-tchmi-top-unit="px" data-tchmi-width="14" data-tchmi-width-unit="px">
+
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(183, 177, 177, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+{
+  "color": "rgba(180, 171, 171, 1)"
+}
+</script>
+</div>
+
+<div id="TcHmiRectangle_47" data-tchmi-type="tchmi-rectangle" data-tchmi-height="92" data-tchmi-height-unit="px" data-tchmi-left="211" data-tchmi-left-unit="px" data-tchmi-top="244" data-tchmi-top-unit="px" data-tchmi-width="14" data-tchmi-width-unit="px">
+
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(183, 177, 177, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+{
+  "color": "rgba(180, 171, 171, 1)"
+}
+</script>
+</div>
+
+<div id="TcHmiEllipse_74" data-tchmi-type="tchmi-ellipse" data-tchmi-height="22" data-tchmi-height-unit="px" data-tchmi-left="119" data-tchmi-left-unit="px" data-tchmi-top="67" data-tchmi-top-unit="px" data-tchmi-width="22" data-tchmi-width-unit="px" data-tchmi-zindex="1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "%s%PLC1.Global_Variables.KS_LeftTop_Far_Contact2%/s%",
+    "actions": [
+      {
+        "objectType": "Condition",
+        "active": true,
+        "expressions": [
+          {
+            "compare1": {
+              "objectType": "Symbol",
+              "symbolExpression": "%s%PLC1.Global_Variables.KS_LeftTop_Far_Contact2%/s%"
+            },
+            "compare2": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:general#/definitions/BOOL",
+              "value": false
+            },
+            "compareOperator": "==",
+            "logic": null
+          }
+        ],
+        "true": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_74::FillColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/Color",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/Color",
+              "value": {
+                "color": "rgba(253, 0, 0, 1)"
+              }
+            },
+            "asyncWait": true
+          },
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_74::StrokeColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/SolidColor",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/SolidColor",
+              "value": {
+                "color": "rgba(253, 0, 0, 1)"
+              }
+            },
+            "asyncWait": true
+          }
+        ],
+        "false": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_74::FillColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/Color",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/Color",
+              "value": {
+                "color": "rgba(18, 243, 54, 1)"
+              }
+            },
+            "asyncWait": true
+          },
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%ctrl%TcHmiEllipse_74::StrokeColor%/ctrl%",
+            "valueType": "tchmi:framework#/definitions/SolidColor",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/SolidColor",
+              "value": {
+                "color": "rgba(18, 243, 54, 1)"
+              }
+            },
+            "asyncWait": true
+          }
+        ],
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+
+
+
+
+
+</div>
+
+</div>

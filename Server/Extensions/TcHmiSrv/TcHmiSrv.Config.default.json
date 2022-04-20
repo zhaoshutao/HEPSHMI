@@ -2077,6 +2077,242 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.Global_Variables.KS_CabinetEmergency_contact1": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::KS_CabinetEmergency_contact1",
+            "OPTIONS": {
+                "comment": "E-STOP"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.KS_CabinetEmergency_contact2": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::KS_CabinetEmergency_contact2",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.KS_LeftBottom_Far_Contact1": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::KS_LeftBottom_Far_Contact1",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.KS_LeftBottom_Far_Contact2": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::KS_LeftBottom_Far_Contact2",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.KS_LeftBottom_Near_Contact1": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::KS_LeftBottom_Near_Contact1",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.KS_LeftBottom_Near_Contact2": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::KS_LeftBottom_Near_Contact2",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.KS_LeftTop_Far_Contact1": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::KS_LeftTop_Far_Contact1",
+            "OPTIONS": {
+                "comment": "kill switch"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.KS_LeftTop_Far_Contact2": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::KS_LeftTop_Far_Contact2",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.KS_LeftTop_Near_Contact1": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::KS_LeftTop_Near_Contact1",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.KS_LeftTop_Near_Contact2": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::KS_LeftTop_Near_Contact2",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.KS_RightBottom_Far_Contact1": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::KS_RightBottom_Far_Contact1",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.KS_RightBottom_Far_Contact2": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::KS_RightBottom_Far_Contact2",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.KS_RightBottom_Near_Contact1": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::KS_RightBottom_Near_Contact1",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.KS_RightBottom_Near_Contact2": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::KS_RightBottom_Near_Contact2",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.KS_RightTop_Far_Contact1": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::KS_RightTop_Far_Contact1",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.KS_RightTop_Far_Contact2": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::KS_RightTop_Far_Contact2",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.KS_RightTop_Near_Contact1": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::KS_RightTop_Near_Contact1",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.KS_RightTop_Near_Contact2": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::KS_RightTop_Near_Contact2",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.KS_handEmergency1_Contact1": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::KS_handEmergency1_Contact1",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.KS_handEmergency1_Contact2": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::KS_handEmergency1_Contact2",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.KS_handEmergency2_Contact1": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::KS_handEmergency2_Contact1",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.KS_handEmergency2_Contact2": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::KS_handEmergency2_Contact2",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.KS_softEmergency2_Contact": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::KS_softEmergency2_Contact",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.Global_Variables.LS_LeftBottom_Bottom": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
