@@ -372,7 +372,7 @@
         "valueType": "tchmi:general#/definitions/LREAL",
         "value": {
           "objectType": "Symbol",
-          "symbolExpression": "%ctrl%TcHmiTextblock_60::Text%/ctrl%"
+          "symbolExpression": "%ctrl%TcHmiTextbox_60::Text%/ctrl%"
         },
         "asyncWait": true
       }
@@ -411,7 +411,7 @@
         "valueType": "tchmi:general#/definitions/LREAL",
         "value": {
           "objectType": "Symbol",
-          "symbolExpression": "%ctrl%TcHmiTextblock_61::Text%/ctrl%"
+          "symbolExpression": "%ctrl%TcHmiTextbox_61::Text%/ctrl%"
         },
         "asyncWait": true
       }
@@ -953,7 +953,7 @@
 </script>
 </div>
 
-<div id="TcHmiTextbox_71" data-tchmi-type="tchmi-textbox" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="108" data-tchmi-left-unit="px" data-tchmi-text="%s%PLC1.SingleCarrierMode.BottomPositionNew%/s%" data-tchmi-top="477" data-tchmi-top-unit="px" data-tchmi-width="66" data-tchmi-width-unit="px" data-tchmi-is-enabled="True" data-tchmi-text-font-size-unit="px">
+<div id="TcHmiTextbox_71" data-tchmi-type="tchmi-textbox" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="108" data-tchmi-left-unit="px" data-tchmi-text="%s%PLC1.SingleCarrierMode.BottomPositionNew%/s%" data-tchmi-top="479" data-tchmi-top-unit="px" data-tchmi-width="66" data-tchmi-width-unit="px" data-tchmi-is-enabled="True" data-tchmi-text-font-size-unit="px">
 <script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
 {
   "top": 3,
@@ -992,7 +992,7 @@
 
 </div>
 
-<div id="TcHmiTextbox_72" data-tchmi-type="tchmi-textbox" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="188" data-tchmi-left-unit="px" data-tchmi-text="%s%PLC1.SingleCarrierMode.BottomVelocityNew%/s%" data-tchmi-top="482" data-tchmi-top-unit="px" data-tchmi-width="67" data-tchmi-width-unit="px" data-tchmi-is-enabled="True" data-tchmi-text-font-size-unit="px">
+<div id="TcHmiTextbox_72" data-tchmi-type="tchmi-textbox" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="188" data-tchmi-left-unit="px" data-tchmi-text="%s%PLC1.SingleCarrierMode.BottomVelocityNew%/s%" data-tchmi-top="479" data-tchmi-top-unit="px" data-tchmi-width="67" data-tchmi-width-unit="px" data-tchmi-is-enabled="True" data-tchmi-text-font-size-unit="px">
 <script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
 {
   "top": 3,
@@ -1111,7 +1111,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_2::FillColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_26::FillColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/Color",
             "value": {
               "objectType": "StaticValue",
@@ -1125,7 +1125,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_2::StrokeColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_26::StrokeColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/SolidColor",
             "value": {
               "objectType": "StaticValue",
@@ -1141,7 +1141,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_2::FillColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_26::FillColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/Color",
             "value": {
               "objectType": "StaticValue",
@@ -1155,7 +1155,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_2::StrokeColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_26::StrokeColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/SolidColor",
             "value": {
               "objectType": "StaticValue",
@@ -1229,7 +1229,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_4::FillColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_27::FillColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/Color",
             "value": {
               "objectType": "StaticValue",
@@ -1243,7 +1243,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_4::StrokeColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_27::StrokeColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/SolidColor",
             "value": {
               "objectType": "StaticValue",
@@ -1259,7 +1259,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_4::FillColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_27::FillColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/Color",
             "value": {
               "objectType": "StaticValue",
@@ -1273,7 +1273,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_4::StrokeColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_27::StrokeColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/SolidColor",
             "value": {
               "objectType": "StaticValue",
@@ -1347,7 +1347,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_3::FillColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_28::FillColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/Color",
             "value": {
               "objectType": "StaticValue",
@@ -1361,7 +1361,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_3::StrokeColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_28::StrokeColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/SolidColor",
             "value": {
               "objectType": "StaticValue",
@@ -1377,7 +1377,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_3::FillColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_28::FillColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/Color",
             "value": {
               "objectType": "StaticValue",
@@ -1391,7 +1391,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_3::StrokeColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_28::StrokeColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/SolidColor",
             "value": {
               "objectType": "StaticValue",
@@ -1465,7 +1465,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_5::FillColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_29::FillColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/Color",
             "value": {
               "objectType": "StaticValue",
@@ -1479,7 +1479,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_5::StrokeColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_29::StrokeColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/SolidColor",
             "value": {
               "objectType": "StaticValue",
@@ -1495,7 +1495,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_5::FillColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_29::FillColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/Color",
             "value": {
               "objectType": "StaticValue",
@@ -1509,7 +1509,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_5::StrokeColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_29::StrokeColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/SolidColor",
             "value": {
               "objectType": "StaticValue",
@@ -1535,7 +1535,7 @@
 
 </div>
 
-<div id="TcHmiEllipse_30" data-tchmi-type="tchmi-ellipse" data-tchmi-height="15" data-tchmi-height-unit="px" data-tchmi-left="492" data-tchmi-left-unit="px" data-tchmi-top="382" data-tchmi-top-unit="px" data-tchmi-width="15" data-tchmi-width-unit="px">
+<div id="TcHmiEllipse_30" data-tchmi-type="tchmi-ellipse" data-tchmi-height="15" data-tchmi-height-unit="px" data-tchmi-left="492" data-tchmi-left-unit="px" data-tchmi-top="379" data-tchmi-top-unit="px" data-tchmi-width="15" data-tchmi-width-unit="px">
 
 
 
@@ -1583,7 +1583,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_6::FillColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_30::FillColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/Color",
             "value": {
               "objectType": "StaticValue",
@@ -1597,7 +1597,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_6::StrokeColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_30::StrokeColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/SolidColor",
             "value": {
               "objectType": "StaticValue",
@@ -1613,7 +1613,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_6::FillColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_30::FillColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/Color",
             "value": {
               "objectType": "StaticValue",
@@ -1627,7 +1627,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_6::StrokeColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_30::StrokeColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/SolidColor",
             "value": {
               "objectType": "StaticValue",
@@ -1701,7 +1701,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_7::FillColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_31::FillColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/Color",
             "value": {
               "objectType": "StaticValue",
@@ -1715,7 +1715,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_7::StrokeColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_31::StrokeColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/SolidColor",
             "value": {
               "objectType": "StaticValue",
@@ -1731,7 +1731,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_7::FillColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_31::FillColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/Color",
             "value": {
               "objectType": "StaticValue",
@@ -1745,7 +1745,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_7::StrokeColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_31::StrokeColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/SolidColor",
             "value": {
               "objectType": "StaticValue",
@@ -1819,7 +1819,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_8::FillColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_32::FillColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/Color",
             "value": {
               "objectType": "StaticValue",
@@ -1833,7 +1833,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_8::StrokeColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_32::StrokeColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/SolidColor",
             "value": {
               "objectType": "StaticValue",
@@ -1849,7 +1849,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_8::FillColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_32::FillColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/Color",
             "value": {
               "objectType": "StaticValue",
@@ -1863,7 +1863,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_8::StrokeColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_32::StrokeColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/SolidColor",
             "value": {
               "objectType": "StaticValue",
@@ -1937,7 +1937,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_9::FillColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_33::FillColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/Color",
             "value": {
               "objectType": "StaticValue",
@@ -1951,7 +1951,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_9::StrokeColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_33::StrokeColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/SolidColor",
             "value": {
               "objectType": "StaticValue",
@@ -1967,7 +1967,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_9::FillColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_33::FillColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/Color",
             "value": {
               "objectType": "StaticValue",
@@ -1981,7 +1981,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_9::StrokeColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_33::StrokeColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/SolidColor",
             "value": {
               "objectType": "StaticValue",

@@ -1136,7 +1136,7 @@
 </script>
 </div>
 
-<div id="TcHmiTextbox_55" data-tchmi-type="tchmi-textbox" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="876" data-tchmi-left-unit="px" data-tchmi-text="%s%PLC1.DebugMode.RightBottomLinPositionNew%/s%" data-tchmi-top="453" data-tchmi-top-unit="px" data-tchmi-width="87" data-tchmi-width-unit="px" data-tchmi-is-enabled="True" data-tchmi-text-font-size-unit="px">
+<div id="TcHmiTextbox_55" data-tchmi-type="tchmi-textbox" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="876" data-tchmi-left-unit="px" data-tchmi-text="%s%PLC1.DebugMode.RightBottomLinPositionNew%/s%" data-tchmi-top="454" data-tchmi-top-unit="px" data-tchmi-width="87" data-tchmi-width-unit="px" data-tchmi-is-enabled="True" data-tchmi-text-font-size-unit="px">
 <script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
 {
   "top": 3,

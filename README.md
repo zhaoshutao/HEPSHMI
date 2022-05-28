@@ -13,3 +13,6 @@ HEPS PLC code
 2.加入光栅positionBias PLC程序和配方
 3.emergencyStop加入HMI
 # 
+#2022.05.28
+1。修改单梁模式中，上梁目标位置的BUG
+2.修改单梁模式中，限位开关不显示的BUG
