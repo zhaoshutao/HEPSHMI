@@ -25,3 +25,6 @@ Ver9-adjust HMI layout
 # 2022.06.05
 Ver10. 修改了HMI中的标题字体，取消的倾斜
 #
+# 2022.07.11
+Ver11. add temperature show on HMI parameters
+#
