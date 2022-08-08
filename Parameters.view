@@ -2104,7 +2104,7 @@
 
 </div>
 
-<div id="TcHmiRectangle_48" data-tchmi-type="tchmi-rectangle" data-tchmi-height="107" data-tchmi-height-unit="px" data-tchmi-left="62" data-tchmi-left-unit="px" data-tchmi-top="452" data-tchmi-top-unit="px" data-tchmi-width="261" data-tchmi-width-unit="px" data-tchmi-zindex="0" data-tchmi-creator-locked="True">
+<div id="TcHmiRectangle_48" data-tchmi-type="tchmi-rectangle" data-tchmi-height="107" data-tchmi-height-unit="px" data-tchmi-left="62" data-tchmi-left-unit="px" data-tchmi-top="452" data-tchmi-top-unit="px" data-tchmi-width="261" data-tchmi-width-unit="px" data-tchmi-zindex="0">
 
 
 <script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
@@ -2237,6 +2237,272 @@
   "color": "rgba(191, 211, 250, 1)"
 }
 </script>
+</div>
+
+<div id="TcHmiTextbox_95" data-tchmi-type="tchmi-textbox" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="380" data-tchmi-left-unit="px"  data-tchmi-top="73" data-tchmi-top-unit="px" data-tchmi-width="76" data-tchmi-width-unit="px" data-tchmi-text="%s%PLC1.MAIN.TemperatureSensors_1|Interval=10%/s%" data-tchmi-zindex="3">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{
+  "top": 3,
+  "right": 3,
+  "bottom": 3,
+  "left": 3
+}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "TcHmiTextbox_95.onTextChanged",
+    "actions": []
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(232, 227, 227, 1)"
+}
+</script>
+</div>
+
+<div id="TcHmiTextbox_96" data-tchmi-type="tchmi-textbox" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="542" data-tchmi-left-unit="px"  data-tchmi-top="73" data-tchmi-top-unit="px" data-tchmi-width="76" data-tchmi-width-unit="px" data-tchmi-text="%s%PLC1.MAIN.TemperatureSensors_2|Interval=10%/s%" data-tchmi-zindex="3">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{
+  "top": 3,
+  "right": 3,
+  "bottom": 3,
+  "left": 3
+}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "TcHmiTextbox_96.onTextChanged",
+    "actions": []
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(232, 227, 227, 1)"
+}
+</script>
+</div>
+
+<div id="TcHmiTextbox_97" data-tchmi-type="tchmi-textbox" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="708" data-tchmi-left-unit="px"  data-tchmi-top="73" data-tchmi-top-unit="px" data-tchmi-width="76" data-tchmi-width-unit="px" data-tchmi-text="%s%PLC1.MAIN.TemperatureSensors_3|Interval=10%/s%" data-tchmi-zindex="3">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{
+  "top": 3,
+  "right": 3,
+  "bottom": 3,
+  "left": 3
+}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "TcHmiTextbox_97.onTextChanged",
+    "actions": []
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(232, 227, 227, 1)"
+}
+</script>
+</div>
+
+<div id="TcHmiTextbox_98" data-tchmi-type="tchmi-textbox" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="380" data-tchmi-left-unit="px"  data-tchmi-top="153" data-tchmi-top-unit="px" data-tchmi-width="76" data-tchmi-width-unit="px" data-tchmi-text="%s%PLC1.MAIN.TemperatureSensors_4|Interval=10%/s%" data-tchmi-zindex="3">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{
+  "top": 3,
+  "right": 3,
+  "bottom": 3,
+  "left": 3
+}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "TcHmiTextbox_98.onTextChanged",
+    "actions": []
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(232, 227, 227, 1)"
+}
+</script>
+</div>
+
+<div id="TcHmiTextbox_99" data-tchmi-type="tchmi-textbox" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="542" data-tchmi-left-unit="px"  data-tchmi-top="153" data-tchmi-top-unit="px" data-tchmi-width="76" data-tchmi-width-unit="px" data-tchmi-text="%s%PLC1.MAIN.TemperatureSensors_5|Interval=10%/s%" data-tchmi-zindex="3">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{
+  "top": 3,
+  "right": 3,
+  "bottom": 3,
+  "left": 3
+}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "TcHmiTextbox_99.onTextChanged",
+    "actions": []
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(232, 227, 227, 1)"
+}
+</script>
+</div>
+
+<div id="TcHmiTextbox_100" data-tchmi-type="tchmi-textbox" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="708" data-tchmi-left-unit="px"  data-tchmi-top="153" data-tchmi-top-unit="px" data-tchmi-width="76" data-tchmi-width-unit="px" data-tchmi-text="%s%PLC1.MAIN.TemperatureSensors_6|Interval=10%/s%" data-tchmi-zindex="3">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{
+  "top": 3,
+  "right": 3,
+  "bottom": 3,
+  "left": 3
+}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "TcHmiTextbox_100.onTextChanged",
+    "actions": []
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(232, 227, 227, 1)"
+}
+</script>
+</div>
+
+<div id="TcHmiTextblock_118" data-tchmi-type="tchmi-textblock" data-tchmi-height="21" data-tchmi-height-unit="px" data-tchmi-left="345" data-tchmi-left-unit="px" data-tchmi-text="温度/k" data-tchmi-top="27" data-tchmi-top-unit="px" data-tchmi-width="163" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="2" data-tchmi-text-font-style="Italic" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size-unit="px">
+
+
+
+
+
+</div>
+
+<div id="TcHmiRectangle_55" data-tchmi-type="tchmi-rectangle" data-tchmi-height="328" data-tchmi-height-unit="px" data-tchmi-left="346" data-tchmi-left-unit="px" data-tchmi-top="48" data-tchmi-top-unit="px" data-tchmi-width="477" data-tchmi-width-unit="px" data-tchmi-zindex="0">
+
+
+<script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+{
+  "color": "rgba(102, 164, 246, 1)"
+}
+</script>
+</div>
+
+<div id="TcHmiTextblock_119" data-tchmi-type="tchmi-textblock" data-tchmi-height="21" data-tchmi-height-unit="px" data-tchmi-left="370" data-tchmi-left-unit="px" data-tchmi-text="入口" data-tchmi-top="112" data-tchmi-top-unit="px" data-tchmi-width="46" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="2" data-tchmi-text-font-style="Italic" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size-unit="px">
+
+
+
+
+
+</div>
+
+<div id="TcHmiTextblock_120" data-tchmi-type="tchmi-textblock" data-tchmi-height="21" data-tchmi-height-unit="px" data-tchmi-left="749" data-tchmi-left-unit="px" data-tchmi-text="出口" data-tchmi-top="111" data-tchmi-top-unit="px" data-tchmi-width="46" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="2" data-tchmi-text-font-style="Italic" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size-unit="px">
+
+
+
+
+
+</div>
+
+<div id="TcHmiTextbox_101" data-tchmi-type="tchmi-textbox" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="558" data-tchmi-left-unit="px"  data-tchmi-top="227" data-tchmi-top-unit="px" data-tchmi-width="76" data-tchmi-width-unit="px" data-tchmi-text="%s%PLC1.MAIN.temperature_average|Interval=10%/s%" data-tchmi-zindex="3">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{
+  "top": 3,
+  "right": 3,
+  "bottom": 3,
+  "left": 3
+}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "TcHmiTextbox_101.onTextChanged",
+    "actions": []
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(232, 227, 227, 1)"
+}
+</script>
+</div>
+
+<div id="TcHmiTextbox_102" data-tchmi-type="tchmi-textbox" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="558" data-tchmi-left-unit="px"  data-tchmi-top="278" data-tchmi-top-unit="px" data-tchmi-width="76" data-tchmi-width-unit="px" data-tchmi-text="%s%PLC1.MAIN.temperature_gradient_max|Interval=10%/s%" data-tchmi-zindex="3">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{
+  "top": 3,
+  "right": 3,
+  "bottom": 3,
+  "left": 3
+}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "TcHmiTextbox_102.onTextChanged",
+    "actions": []
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(232, 227, 227, 1)"
+}
+</script>
+</div>
+
+<div id="TcHmiTextblock_121" data-tchmi-type="tchmi-textblock" data-tchmi-height="21" data-tchmi-height-unit="px" data-tchmi-left="468" data-tchmi-left-unit="px" data-tchmi-text="平均温度" data-tchmi-top="227" data-tchmi-top-unit="px" data-tchmi-width="72" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="2" data-tchmi-text-font-style="Italic" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size-unit="px">
+
+
+
+
+
+</div>
+
+<div id="TcHmiTextblock_122" data-tchmi-type="tchmi-textblock" data-tchmi-height="21" data-tchmi-height-unit="px" data-tchmi-left="467" data-tchmi-left-unit="px" data-tchmi-text="最大温度梯度" data-tchmi-top="278" data-tchmi-top-unit="px" data-tchmi-width="72" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="2" data-tchmi-text-font-style="Italic" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size-unit="px">
+
+
+
+
+
 </div>
 
 </div>

@@ -2620,6 +2620,86 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.MAIN.TemperatureSensors_1": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::MAIN::TemperatureSensors_1",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.MAIN.TemperatureSensors_2": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::MAIN::TemperatureSensors_2",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.MAIN.TemperatureSensors_3": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::MAIN::TemperatureSensors_3",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.MAIN.TemperatureSensors_4": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::MAIN::TemperatureSensors_4",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.MAIN.TemperatureSensors_5": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::MAIN::TemperatureSensors_5",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.MAIN.TemperatureSensors_6": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::MAIN::TemperatureSensors_6",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.MAIN.TemperatureSensors_7": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::MAIN::TemperatureSensors_7",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.MAIN.TemperatureSensors_8": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::MAIN::TemperatureSensors_8",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.MAIN.btn_setAxisPosition": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
@@ -2690,6 +2770,26 @@
             },
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.MAIN.temperature_average": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::MAIN::temperature_average",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.MAIN.temperature_gradient_max": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::MAIN::temperature_gradient_max",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
             },
             "USEMAPPING": true
         },
@@ -4252,7 +4352,7 @@
     "USERSELECTTYPE": 0,
     "VIDEOSEGMENTSIZE": 1048576,
     "VIRTUALDIRECTORIES": {
-        "/": "..\\..\\HEPSHMI",
+        "/": "..\\..\\HMI",
         "/framework": "C:\\TwinCAT\\Functions\\TE2000-HMI-Engineering\\Infrastructure\\TcHmiFramework\\1.10.1342.0"
     }
 }
