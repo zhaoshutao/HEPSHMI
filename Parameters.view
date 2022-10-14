@@ -2909,7 +2909,7 @@
 
 </div>
 
-<div id="TcHmiEllipse_80" data-tchmi-type="tchmi-ellipse" data-tchmi-height="22" data-tchmi-height-unit="px" data-tchmi-left="273" data-tchmi-left-unit="px" data-tchmi-top="491" data-tchmi-top-unit="px" data-tchmi-width="22" data-tchmi-width-unit="px" data-tchmi-zindex="2">
+<div id="TcHmiEllipse_80" data-tchmi-type="tchmi-ellipse" data-tchmi-height="22" data-tchmi-height-unit="px" data-tchmi-left="268" data-tchmi-left-unit="px" data-tchmi-top="478" data-tchmi-top-unit="px" data-tchmi-width="22" data-tchmi-width-unit="px" data-tchmi-zindex="2">
 
 
 
@@ -2957,7 +2957,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_65::FillColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_80::FillColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/Color",
             "value": {
               "objectType": "StaticValue",
@@ -2971,7 +2971,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_65::StrokeColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_80::StrokeColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/SolidColor",
             "value": {
               "objectType": "StaticValue",
@@ -2987,7 +2987,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_65::FillColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_80::FillColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/Color",
             "value": {
               "objectType": "StaticValue",
@@ -3001,7 +3001,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_65::StrokeColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_80::StrokeColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/SolidColor",
             "value": {
               "objectType": "StaticValue",
@@ -3161,7 +3161,7 @@
 
 </div>
 
-<div id="TcHmiEllipse_82" data-tchmi-type="tchmi-ellipse" data-tchmi-height="22" data-tchmi-height-unit="px" data-tchmi-left="272" data-tchmi-left-unit="px" data-tchmi-top="520" data-tchmi-top-unit="px" data-tchmi-width="22" data-tchmi-width-unit="px" data-tchmi-zindex="2">
+<div id="TcHmiEllipse_82" data-tchmi-type="tchmi-ellipse" data-tchmi-height="22" data-tchmi-height-unit="px" data-tchmi-left="261" data-tchmi-left-unit="px" data-tchmi-top="506" data-tchmi-top-unit="px" data-tchmi-width="22" data-tchmi-width-unit="px" data-tchmi-zindex="2">
 
 
 
@@ -3209,7 +3209,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_65::FillColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_82::FillColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/Color",
             "value": {
               "objectType": "StaticValue",
@@ -3223,7 +3223,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_65::StrokeColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_82::StrokeColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/SolidColor",
             "value": {
               "objectType": "StaticValue",
@@ -3239,7 +3239,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_65::FillColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_82::FillColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/Color",
             "value": {
               "objectType": "StaticValue",
@@ -3253,7 +3253,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_65::StrokeColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_82::StrokeColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/SolidColor",
             "value": {
               "objectType": "StaticValue",
