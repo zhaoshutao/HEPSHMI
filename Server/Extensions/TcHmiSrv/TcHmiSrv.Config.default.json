@@ -2823,6 +2823,16 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.MAIN.bReloadDriveDiagMessageAndNumber": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::MAIN::bReloadDriveDiagMessageAndNumber",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.MAIN.btn_setAxisPosition": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
