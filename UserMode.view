@@ -2927,7 +2927,7 @@
 
 </div>
 
-<div id="TcHmiTextbox_103" data-tchmi-type="tchmi-textbox" data-tchmi-height="25" data-tchmi-height-unit="px" data-tchmi-left="869" data-tchmi-left-unit="px" data-tchmi-text="%s%PLC1.Global_Variables.ErrorID%/s%" data-tchmi-top="682" data-tchmi-top-unit="px" data-tchmi-width="108" data-tchmi-width-unit="px" data-tchmi-zindex="1">
+<div id="TcHmiTextbox_103" data-tchmi-type="tchmi-textbox" data-tchmi-height="25" data-tchmi-height-unit="px" data-tchmi-left="869" data-tchmi-left-unit="px" data-tchmi-text="%s%PLC1.MAIN.InsertionDeviceName%/s%" data-tchmi-top="682" data-tchmi-top-unit="px" data-tchmi-width="108" data-tchmi-width-unit="px" data-tchmi-zindex="1">
 <script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
 {
   "top": 3,
@@ -3022,7 +3022,7 @@
 
 </div>
 
-<div id="TcHmiEllipse_83" data-tchmi-type="tchmi-ellipse" data-tchmi-height="22" data-tchmi-height-unit="px" data-tchmi-left="876" data-tchmi-left-unit="px" data-tchmi-top="717" data-tchmi-top-unit="px" data-tchmi-width="22" data-tchmi-width-unit="px" data-tchmi-zindex="3">
+<div id="TcHmiEllipse_83" data-tchmi-type="tchmi-ellipse" data-tchmi-height="22" data-tchmi-height-unit="px" data-tchmi-left="870" data-tchmi-left-unit="px" data-tchmi-top="716" data-tchmi-top-unit="px" data-tchmi-width="22" data-tchmi-width-unit="px" data-tchmi-zindex="3">
 
 
 
@@ -3046,7 +3046,7 @@
 <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
 [
   {
-    "event": "%s%PLC1.Global_Variables.Error%/s%",
+    "event": "%s%PLC1.Global_Variables.IDControlReady%/s%",
     "actions": [
       {
         "objectType": "Condition",
@@ -3055,12 +3055,12 @@
           {
             "compare1": {
               "objectType": "Symbol",
-              "symbolExpression": "%s%PLC1.Global_Variables.Error%/s%"
+              "symbolExpression": "%s%PLC1.Global_Variables.IDControlReady%/s%"
             },
             "compare2": {
               "objectType": "StaticValue",
               "valueType": "tchmi:general#/definitions/BOOL",
-              "value": true
+              "value": false
             },
             "compareOperator": "==",
             "logic": null
@@ -3070,7 +3070,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_75::FillColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_83::FillColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/Color",
             "value": {
               "objectType": "StaticValue",
@@ -3084,7 +3084,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_75::StrokeColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_83::StrokeColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/SolidColor",
             "value": {
               "objectType": "StaticValue",
@@ -3100,13 +3100,13 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_75::FillColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_83::FillColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/Color",
             "value": {
               "objectType": "StaticValue",
               "valueType": "tchmi:framework#/definitions/Color",
               "value": {
-                "color": "rgba(145, 168, 148, 1)"
+                "color": "rgba(13, 196, 37, 1)"
               }
             },
             "asyncWait": true
@@ -3114,13 +3114,13 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%ctrl%TcHmiEllipse_75::StrokeColor%/ctrl%",
+            "symbolExpression": "%ctrl%TcHmiEllipse_83::StrokeColor%/ctrl%",
             "valueType": "tchmi:framework#/definitions/SolidColor",
             "value": {
               "objectType": "StaticValue",
               "valueType": "tchmi:framework#/definitions/SolidColor",
               "value": {
-                "color": "rgba(121, 138, 123, 1)"
+                "color": "rgba(28, 225, 51, 1)"
               }
             },
             "asyncWait": true
