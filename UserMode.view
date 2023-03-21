@@ -278,14 +278,7 @@
 </script>
 
 
-<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
-[
-  {
-    "event": "TcHmiTextbox_74.onTextChanged",
-    "actions": []
-  }
-]
-</script>
+
 
 <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
 {
@@ -525,27 +518,7 @@
 </script>
 
 
-<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
-[
-  {
-    "event": "TcHmiTextbox_78.onTextChanged",
-    "actions": [
-      {
-        "objectType": "WriteToSymbol",
-        "active": true,
-        "symbolExpression": "%s%PLC1.Global_Variables.Velo_LeftTopLin%/s%",
-        "valueType": "tchmi:general#/definitions/LREAL",
-        "value": {
-          "objectType": "StaticValue",
-          "valueType": "tchmi:general#/definitions/LREAL",
-          "value": null
-        },
-        "asyncWait": true
-      }
-    ]
-  }
-]
-</script>
+
 
 <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
 {
@@ -565,27 +538,7 @@
 </script>
 
 
-<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
-[
-  {
-    "event": "TcHmiTextbox_79.onTextChanged",
-    "actions": [
-      {
-        "objectType": "WriteToSymbol",
-        "active": true,
-        "symbolExpression": "%s%PLC1.Global_Variables.Pos_LeftTopLin%/s%",
-        "valueType": "tchmi:general#/definitions/LREAL",
-        "value": {
-          "objectType": "StaticValue",
-          "valueType": "tchmi:general#/definitions/LREAL",
-          "value": null
-        },
-        "asyncWait": true
-      }
-    ]
-  }
-]
-</script>
+
 
 <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
 {
@@ -605,27 +558,7 @@
 </script>
 
 
-<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
-[
-  {
-    "event": "TcHmiTextbox_80.onTextChanged",
-    "actions": [
-      {
-        "objectType": "WriteToSymbol",
-        "active": true,
-        "symbolExpression": "%s%PLC1.Global_Variables.Velo_RightTopLin%/s%",
-        "valueType": "tchmi:general#/definitions/LREAL",
-        "value": {
-          "objectType": "StaticValue",
-          "valueType": "tchmi:general#/definitions/LREAL",
-          "value": null
-        },
-        "asyncWait": true
-      }
-    ]
-  }
-]
-</script>
+
 
 <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
 {
@@ -645,14 +578,7 @@
 </script>
 
 
-<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
-[
-  {
-    "event": "TcHmiTextbox_81.onTextChanged",
-    "actions": []
-  }
-]
-</script>
+
 
 <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
 {
@@ -672,14 +598,7 @@
 </script>
 
 
-<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
-[
-  {
-    "event": "TcHmiTextbox_82.onTextChanged",
-    "actions": []
-  }
-]
-</script>
+
 
 <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
 {
@@ -699,14 +618,7 @@
 </script>
 
 
-<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
-[
-  {
-    "event": "TcHmiTextbox_83.onTextChanged",
-    "actions": []
-  }
-]
-</script>
+
 
 <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
 {
@@ -726,14 +638,7 @@
 </script>
 
 
-<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
-[
-  {
-    "event": "TcHmiTextbox_84.onTextChanged",
-    "actions": []
-  }
-]
-</script>
+
 
 <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
 {

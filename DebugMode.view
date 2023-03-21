@@ -444,14 +444,7 @@
 </script>
 
 
-<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
-[
-  {
-    "event": "TcHmiTextbox_1.onTextChanged",
-    "actions": []
-  }
-]
-</script>
+
 
 <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
 {
@@ -471,14 +464,7 @@
 </script>
 
 
-<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
-[
-  {
-    "event": "TcHmiTextbox_45.onTextChanged",
-    "actions": []
-  }
-]
-</script>
+
 
 <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
 {
@@ -498,14 +484,7 @@
 </script>
 
 
-<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
-[
-  {
-    "event": "TcHmiTextbox_46.onTextChanged",
-    "actions": []
-  }
-]
-</script>
+
 
 <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
 {
@@ -565,14 +544,7 @@
 </script>
 
 
-<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
-[
-  {
-    "event": "TcHmiTextbox_49.onTextChanged",
-    "actions": []
-  }
-]
-</script>
+
 
 <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
 {
@@ -592,14 +564,7 @@
 </script>
 
 
-<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
-[
-  {
-    "event": "TcHmiTextbox_50.onTextChanged",
-    "actions": []
-  }
-]
-</script>
+
 
 <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
 {
