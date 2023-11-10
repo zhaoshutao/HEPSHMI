@@ -2179,7 +2179,7 @@
 </script>
 </div>
 
-<div id="TcHmiCheckbox_1" data-tchmi-type="tchmi-checkbox" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-left="410" data-tchmi-left-unit="px" data-tchmi-top="734" data-tchmi-top-unit="px" data-tchmi-width="30" data-tchmi-width-unit="px" data-tchmi-zindex="3" data-tchmi-toggle-state="Normal">
+<div id="TcHmiCheckbox_1" data-tchmi-type="tchmi-checkbox" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-left="410" data-tchmi-left-unit="px" data-tchmi-top="729" data-tchmi-top-unit="px" data-tchmi-width="30" data-tchmi-width-unit="px" data-tchmi-zindex="3" data-tchmi-toggle-state="Normal">
 
 
 <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
@@ -2209,45 +2209,7 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%s%PLC1.UserMode.SSMotionMode%/s%",
-            "valueType": "tchmi:general#/definitions/BOOL",
-            "value": {
-              "objectType": "StaticValue",
-              "valueType": "tchmi:general#/definitions/BOOL",
-              "value": true
-            },
-            "asyncWait": true
-          },
-          {
-            "objectType": "WriteToSymbol",
-            "active": true,
-            "symbolExpression": "%s%PLC1.UserMode.RegularMotionMode%/s%",
-            "valueType": "tchmi:general#/definitions/BOOL",
-            "value": {
-              "objectType": "StaticValue",
-              "valueType": "tchmi:general#/definitions/BOOL",
-              "value": false
-            },
-            "asyncWait": true
-          }
-        ],
-        "false": [
-          {
-            "objectType": "WriteToSymbol",
-            "active": false,
-            "symbolExpression": "%s%PLC1.UserMode.SSMotionMode%/s%",
-            "valueType": "tchmi:general#/definitions/BOOL",
-            "value": {
-              "objectType": "StaticValue",
-              "valueType": "tchmi:general#/definitions/BOOL",
-              "value": false
-            },
-            "asyncWait": true
-          },
-          {
-            "objectType": "WriteToSymbol",
-            "active": false,
-            "symbolExpression": "%s%PLC1.UserMode.RegularMotionMode%/s%",
+            "symbolExpression": "%s%PLC1.UserMode.IsSSMotionMode%/s%",
             "valueType": "tchmi:general#/definitions/BOOL",
             "value": {
               "objectType": "StaticValue",
@@ -2281,24 +2243,12 @@
           {
             "objectType": "WriteToSymbol",
             "active": true,
-            "symbolExpression": "%s%PLC1.UserMode.SSMotionMode%/s%",
+            "symbolExpression": "%s%PLC1.UserMode.IsSSMotionMode%/s%",
             "valueType": "tchmi:general#/definitions/BOOL",
             "value": {
               "objectType": "StaticValue",
               "valueType": "tchmi:general#/definitions/BOOL",
               "value": false
-            },
-            "asyncWait": true
-          },
-          {
-            "objectType": "WriteToSymbol",
-            "active": true,
-            "symbolExpression": "%s%PLC1.UserMode.RegularMotionMode%/s%",
-            "valueType": "tchmi:general#/definitions/BOOL",
-            "value": {
-              "objectType": "StaticValue",
-              "valueType": "tchmi:general#/definitions/BOOL",
-              "value": true
             },
             "asyncWait": true
           }

@@ -3152,6 +3152,19 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.UserMode.IsSSMotionMode": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::IsSSMotionMode",
+            "OPTIONS": {
+                "comment": "Spectroscopy scanning Mode"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.UserMode.Pos_LeftBottomLin_NoTaper": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
