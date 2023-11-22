@@ -2766,6 +2766,16 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.MAIN.Sensor_Reading_DpState": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::MAIN::Sensor_Reading_DpState",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/USINT"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.MAIN.TemperatureSensors_1": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
