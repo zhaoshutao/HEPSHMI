@@ -1087,7 +1087,7 @@
 <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
 [
   {
-    "event": "%s%PLC1.Global_Variables.LS_LeftTop_Top%/s%",
+    "event": "%s%PLC1.Global_Variables.LS_LeftTop_Far%/s%",
     "actions": [
       {
         "objectType": "Condition",
@@ -1096,7 +1096,7 @@
           {
             "compare1": {
               "objectType": "Symbol",
-              "symbolExpression": "%s%PLC1.Global_Variables.LS_LeftTop_Top%/s%"
+              "symbolExpression": "%s%PLC1.Global_Variables.LS_LeftTop_Far%/s%"
             },
             "compare2": {
               "objectType": "StaticValue",
@@ -1205,7 +1205,7 @@
 <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
 [
   {
-    "event": "%s%PLC1.Global_Variables.LS_RightTop_Top%/s%",
+    "event": "%s%PLC1.Global_Variables.LS_RightTop_Far%/s%",
     "actions": [
       {
         "objectType": "Condition",
@@ -1214,7 +1214,7 @@
           {
             "compare1": {
               "objectType": "Symbol",
-              "symbolExpression": "%s%PLC1.Global_Variables.LS_RightTop_Top%/s%"
+              "symbolExpression": "%s%PLC1.Global_Variables.LS_RightTop_Far%/s%"
             },
             "compare2": {
               "objectType": "StaticValue",
@@ -1323,7 +1323,7 @@
 <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
 [
   {
-    "event": "%s%PLC1.Global_Variables.LS_LeftTop_Bottom%/s%",
+    "event": "%s%PLC1.Global_Variables.LS_LeftTop_Near%/s%",
     "actions": [
       {
         "objectType": "Condition",
@@ -1332,7 +1332,7 @@
           {
             "compare1": {
               "objectType": "Symbol",
-              "symbolExpression": "%s%PLC1.Global_Variables.LS_LeftTop_Bottom%/s%"
+              "symbolExpression": "%s%PLC1.Global_Variables.LS_LeftTop_Near%/s%"
             },
             "compare2": {
               "objectType": "StaticValue",
@@ -1441,7 +1441,7 @@
 <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
 [
   {
-    "event": "%s%PLC1.Global_Variables.LS_RightTop_Bottom%/s%",
+    "event": "%s%PLC1.Global_Variables.LS_RightTop_Near%/s%",
     "actions": [
       {
         "objectType": "Condition",
@@ -1450,7 +1450,7 @@
           {
             "compare1": {
               "objectType": "Symbol",
-              "symbolExpression": "%s%PLC1.Global_Variables.LS_RightTop_Bottom%/s%"
+              "symbolExpression": "%s%PLC1.Global_Variables.LS_RightTop_Near%/s%"
             },
             "compare2": {
               "objectType": "StaticValue",
@@ -1559,7 +1559,7 @@
 <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
 [
   {
-    "event": "%s%PLC1.Global_Variables.LS_LeftBottom_Bottom%/s%",
+    "event": "%s%PLC1.Global_Variables.LS_LeftBottom_Near%/s%",
     "actions": [
       {
         "objectType": "Condition",
@@ -1568,7 +1568,7 @@
           {
             "compare1": {
               "objectType": "Symbol",
-              "symbolExpression": "%s%PLC1.Global_Variables.LS_LeftBottom_Bottom%/s%"
+              "symbolExpression": "%s%PLC1.Global_Variables.LS_LeftBottom_Near%/s%"
             },
             "compare2": {
               "objectType": "StaticValue",
@@ -1653,7 +1653,7 @@
 
 </div>
 
-<div id="TcHmiEllipse_31" data-tchmi-type="tchmi-ellipse" data-tchmi-height="15" data-tchmi-height-unit="px" data-tchmi-left="648" data-tchmi-left-unit="px" data-tchmi-top="382" data-tchmi-top-unit="px" data-tchmi-width="15" data-tchmi-width-unit="px">
+<div id="TcHmiEllipse_31" data-tchmi-type="tchmi-ellipse" data-tchmi-height="15" data-tchmi-height-unit="px" data-tchmi-left="648" data-tchmi-left-unit="px" data-tchmi-top="377" data-tchmi-top-unit="px" data-tchmi-width="15" data-tchmi-width-unit="px">
 
 
 
@@ -1677,7 +1677,7 @@
 <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
 [
   {
-    "event": "%s%PLC1.Global_Variables.LS_RightBottom_Bottom%/s%",
+    "event": "%s%PLC1.Global_Variables.LS_RightBottom_Near%/s%",
     "actions": [
       {
         "objectType": "Condition",
@@ -1686,7 +1686,7 @@
           {
             "compare1": {
               "objectType": "Symbol",
-              "symbolExpression": "%s%PLC1.Global_Variables.LS_RightBottom_Bottom%/s%"
+              "symbolExpression": "%s%PLC1.Global_Variables.LS_RightBottom_Near%/s%"
             },
             "compare2": {
               "objectType": "StaticValue",
@@ -1795,7 +1795,7 @@
 <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
 [
   {
-    "event": "%s%PLC1.Global_Variables.LS_LeftBottom_Top%/s%",
+    "event": "%s%PLC1.Global_Variables.LS_LeftBottom_Far%/s%",
     "actions": [
       {
         "objectType": "Condition",
@@ -1804,7 +1804,7 @@
           {
             "compare1": {
               "objectType": "Symbol",
-              "symbolExpression": "%s%PLC1.Global_Variables.LS_LeftBottom_Top%/s%"
+              "symbolExpression": "%s%PLC1.Global_Variables.LS_LeftBottom_Far%/s%"
             },
             "compare2": {
               "objectType": "StaticValue",
@@ -1913,7 +1913,7 @@
 <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
 [
   {
-    "event": "%s%PLC1.Global_Variables.LS_RightBottom_Top%/s%",
+    "event": "%s%PLC1.Global_Variables.LS_RightBottom_Far%/s%",
     "actions": [
       {
         "objectType": "Condition",
@@ -1922,7 +1922,7 @@
           {
             "compare1": {
               "objectType": "Symbol",
-              "symbolExpression": "%s%PLC1.Global_Variables.LS_RightBottom_Top%/s%"
+              "symbolExpression": "%s%PLC1.Global_Variables.LS_RightBottom_Far%/s%"
             },
             "compare2": {
               "objectType": "StaticValue",
