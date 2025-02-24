@@ -2726,6 +2726,19 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.Global_Variables.btn_Reset": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::btn_Reset",
+            "OPTIONS": {
+                "comment": "Reset"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.Global_Variables.m_restartTC": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
@@ -2734,6 +2747,69 @@
             "OPTIONS": {
                 "comment": "***"
             },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.moveStatusAllAxis": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::moveStatusAllAxis",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.moveStatusAnyAxis": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::moveStatusAnyAxis",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.moveStatusLeftBottom": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::moveStatusLeftBottom",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.moveStatusLeftTop": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::moveStatusLeftTop",
+            "OPTIONS": {
+                "comment": "Compensation Value\r\nMoving or notmoving"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.moveStatusRightBottom": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::moveStatusRightBottom",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.moveStatusRightTop": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::moveStatusRightTop",
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
             },
@@ -3444,6 +3520,29 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.UserMode.Cryogenic_ChainProtection_MaxGapValue": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::Cryogenic_ChainProtection_MaxGapValue",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.Cryogenic_ChainProtection_On": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::Cryogenic_ChainProtection_On",
+            "OPTIONS": {
+                "comment": "Cryogenic Chain protection"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.UserMode.Global_ChainProtection_BeamLineReady": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
@@ -3513,6 +3612,16 @@
             },
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.Global_ChainProtection_EPS_MaxGapValue": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::Global_ChainProtection_EPS_MaxGapValue",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
             },
             "USEMAPPING": true
         },
@@ -3635,6 +3744,16 @@
             },
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.Global_ChainProtection_MPS_MaxGapValue": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::Global_ChainProtection_MPS_MaxGapValue",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
             },
             "USEMAPPING": true
         },
