@@ -3819,7 +3819,7 @@
 
 </div>
 
-<div id="TcHmiRectangle_59" data-tchmi-type="tchmi-rectangle" data-tchmi-height="260" data-tchmi-height-unit="px" data-tchmi-left="338" data-tchmi-left-unit="px" data-tchmi-top="595" data-tchmi-top-unit="px" data-tchmi-width="154" data-tchmi-width-unit="px" data-tchmi-zindex="2">
+<div id="TcHmiRectangle_59" data-tchmi-type="tchmi-rectangle" data-tchmi-height="264" data-tchmi-height-unit="px" data-tchmi-left="338" data-tchmi-left-unit="px" data-tchmi-top="595" data-tchmi-top-unit="px" data-tchmi-width="154" data-tchmi-width-unit="px" data-tchmi-zindex="2">
 
 
 <script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
@@ -4837,7 +4837,7 @@
 
 </div>
 
-<div id="TcHmiButton_72" data-tchmi-type="tchmi-button" data-tchmi-height="28" data-tchmi-height-unit="px" data-tchmi-left="390" data-tchmi-left-unit="px" data-tchmi-text="手动触发" data-tchmi-top="824" data-tchmi-top-unit="px" data-tchmi-width="77" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="2">
+<div id="TcHmiButton_72" data-tchmi-type="tchmi-button" data-tchmi-height="28" data-tchmi-height-unit="px" data-tchmi-left="428" data-tchmi-left-unit="px" data-tchmi-text="手动触发" data-tchmi-top="823" data-tchmi-top-unit="px" data-tchmi-width="54" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="2">
 
 
 
@@ -5013,7 +5013,7 @@
 
 </div>
 
-<div id="TcHmiButton_73" data-tchmi-type="tchmi-button" data-tchmi-height="28" data-tchmi-height-unit="px" data-tchmi-left="734" data-tchmi-left-unit="px" data-tchmi-text="手动触发" data-tchmi-top="824" data-tchmi-top-unit="px" data-tchmi-width="77" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="6">
+<div id="TcHmiButton_73" data-tchmi-type="tchmi-button" data-tchmi-height="28" data-tchmi-height-unit="px" data-tchmi-left="791" data-tchmi-left-unit="px" data-tchmi-text="手动触发" data-tchmi-top="824" data-tchmi-top-unit="px" data-tchmi-width="52" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="6">
 
 
 
@@ -5081,7 +5081,7 @@
 
 </div>
 
-<div id="TcHmiTextblock_177" data-tchmi-type="tchmi-textblock" data-tchmi-height="21" data-tchmi-height-unit="px" data-tchmi-left="523" data-tchmi-left-unit="px" data-tchmi-text="MPS保护成功" data-tchmi-top="759" data-tchmi-top-unit="px" data-tchmi-width="77" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="7" data-tchmi-text-font-style="Italic" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size-unit="px">
+<div id="TcHmiTextblock_177" data-tchmi-type="tchmi-textblock" data-tchmi-height="21" data-tchmi-height-unit="px" data-tchmi-left="528" data-tchmi-left-unit="px" data-tchmi-text="MPS保护成功" data-tchmi-top="759" data-tchmi-top-unit="px" data-tchmi-width="77" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="7" data-tchmi-text-font-style="Italic" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size-unit="px">
 
 
 
@@ -5207,7 +5207,7 @@
 
 </div>
 
-<div id="TcHmiButton_74" data-tchmi-type="tchmi-button" data-tchmi-height="28" data-tchmi-height-unit="px" data-tchmi-left="552" data-tchmi-left-unit="px" data-tchmi-text="手动触发" data-tchmi-top="823" data-tchmi-top-unit="px" data-tchmi-width="77" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="2">
+<div id="TcHmiButton_74" data-tchmi-type="tchmi-button" data-tchmi-height="28" data-tchmi-height-unit="px" data-tchmi-left="618" data-tchmi-left-unit="px" data-tchmi-text="手动触发" data-tchmi-top="825" data-tchmi-top-unit="px" data-tchmi-width="50" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="2">
 
 
 
@@ -6118,7 +6118,7 @@
           {
             "compare1": {
               "objectType": "Symbol",
-              "symbolExpression": "%s%PLC1.UserMode.Global_ChainProtection_MPS_On%/s%"
+              "symbolExpression": "%s%PLC1.UserMode.Cryogenic_ChainProtection_On%/s%"
             },
             "compare2": {
               "objectType": "StaticValue",
@@ -6362,6 +6362,318 @@
 
 
 
+</div>
+
+<div id="TcHmiCheckbox_2" data-tchmi-type="tchmi-checkbox" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-left="386" data-tchmi-left-unit="px" data-tchmi-top="821" data-tchmi-top-unit="px" data-tchmi-width="30" data-tchmi-width-unit="px" data-tchmi-zindex="4">
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "TcHmiCheckbox_2.onToggleStateChanged",
+    "actions": [
+      {
+        "objectType": "Condition",
+        "active": true,
+        "expressions": [
+          {
+            "compare1": {
+              "objectType": "Symbol",
+              "symbolExpression": "%ctrl%TcHmiCheckbox_2::ToggleState%/ctrl%"
+            },
+            "compare2": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/ToggleState",
+              "value": "Active"
+            },
+            "compareOperator": "==",
+            "logic": null
+          }
+        ],
+        "true": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%s%PLC1.UserMode.Global_ChainProtection_EPS_On%/s%",
+            "valueType": "tchmi:general#/definitions/BOOL",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:general#/definitions/BOOL",
+              "value": true
+            },
+            "asyncWait": true
+          }
+        ],
+        "false": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": false,
+            "symbolExpression": "%s%PLC1.Global_Variables.TaperOrNot%/s%",
+            "valueType": "tchmi:general#/definitions/BOOL",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:general#/definitions/BOOL",
+              "value": false
+            },
+            "asyncWait": true
+          }
+        ],
+        "asyncWait": true
+      },
+      {
+        "objectType": "Condition",
+        "active": true,
+        "expressions": [
+          {
+            "compare1": {
+              "objectType": "Symbol",
+              "symbolExpression": "%ctrl%TcHmiCheckbox_2::ToggleState%/ctrl%"
+            },
+            "compare2": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/ToggleState",
+              "value": "Normal"
+            },
+            "compareOperator": "==",
+            "logic": null
+          }
+        ],
+        "true": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%s%PLC1.UserMode.Global_ChainProtection_EPS_On%/s%",
+            "valueType": "tchmi:general#/definitions/BOOL",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:general#/definitions/BOOL",
+              "value": false
+            },
+            "asyncWait": true
+          }
+        ],
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+</div>
+
+<div id="TcHmiTextblock_285" data-tchmi-type="tchmi-textblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="345" data-tchmi-left-unit="px" data-tchmi-text="开关" data-tchmi-top="827" data-tchmi-top-unit="px" data-tchmi-width="42" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="5" data-tchmi-text-font-style="Italic" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size-unit="px">
+
+
+
+
+
+</div>
+
+<div id="TcHmiTextblock_286" data-tchmi-type="tchmi-textblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="532" data-tchmi-left-unit="px" data-tchmi-text="开关" data-tchmi-top="828" data-tchmi-top-unit="px" data-tchmi-width="42" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="5" data-tchmi-text-font-style="Italic" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size-unit="px">
+
+
+
+
+
+</div>
+
+<div id="TcHmiCheckbox_3" data-tchmi-type="tchmi-checkbox" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-left="573" data-tchmi-left-unit="px" data-tchmi-top="822" data-tchmi-top-unit="px" data-tchmi-width="30" data-tchmi-width-unit="px" data-tchmi-zindex="4">
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "TcHmiCheckbox_3.onToggleStateChanged",
+    "actions": [
+      {
+        "objectType": "Condition",
+        "active": true,
+        "expressions": [
+          {
+            "compare1": {
+              "objectType": "Symbol",
+              "symbolExpression": "%ctrl%TcHmiCheckbox_3::ToggleState%/ctrl%"
+            },
+            "compare2": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/ToggleState",
+              "value": "Active"
+            },
+            "compareOperator": "==",
+            "logic": null
+          }
+        ],
+        "true": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%s%PLC1.UserMode.Global_ChainProtection_MPS_On%/s%",
+            "valueType": "tchmi:general#/definitions/BOOL",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:general#/definitions/BOOL",
+              "value": true
+            },
+            "asyncWait": true
+          }
+        ],
+        "false": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": false,
+            "symbolExpression": "%s%PLC1.Global_Variables.TaperOrNot%/s%",
+            "valueType": "tchmi:general#/definitions/BOOL",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:general#/definitions/BOOL",
+              "value": false
+            },
+            "asyncWait": true
+          }
+        ],
+        "asyncWait": true
+      },
+      {
+        "objectType": "Condition",
+        "active": true,
+        "expressions": [
+          {
+            "compare1": {
+              "objectType": "Symbol",
+              "symbolExpression": "%ctrl%TcHmiCheckbox_3::ToggleState%/ctrl%"
+            },
+            "compare2": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/ToggleState",
+              "value": "Normal"
+            },
+            "compareOperator": "==",
+            "logic": null
+          }
+        ],
+        "true": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%s%PLC1.UserMode.Global_ChainProtection_MPS_On%/s%",
+            "valueType": "tchmi:general#/definitions/BOOL",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:general#/definitions/BOOL",
+              "value": false
+            },
+            "asyncWait": true
+          }
+        ],
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+</div>
+
+<div id="TcHmiTextblock_287" data-tchmi-type="tchmi-textblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="710" data-tchmi-left-unit="px" data-tchmi-text="开关" data-tchmi-top="827" data-tchmi-top-unit="px" data-tchmi-width="42" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="5" data-tchmi-text-font-style="Italic" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size-unit="px">
+
+
+
+
+
+</div>
+
+<div id="TcHmiCheckbox_4" data-tchmi-type="tchmi-checkbox" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-left="751" data-tchmi-left-unit="px" data-tchmi-top="821" data-tchmi-top-unit="px" data-tchmi-width="30" data-tchmi-width-unit="px" data-tchmi-zindex="4">
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "TcHmiCheckbox_4.onToggleStateChanged",
+    "actions": [
+      {
+        "objectType": "Condition",
+        "active": true,
+        "expressions": [
+          {
+            "compare1": {
+              "objectType": "Symbol",
+              "symbolExpression": "%ctrl%TcHmiCheckbox_4::ToggleState%/ctrl%"
+            },
+            "compare2": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/ToggleState",
+              "value": "Active"
+            },
+            "compareOperator": "==",
+            "logic": null
+          }
+        ],
+        "true": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%s%PLC1.UserMode.Cryogenic_ChainProtection_On%/s%",
+            "valueType": "tchmi:general#/definitions/BOOL",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:general#/definitions/BOOL",
+              "value": true
+            },
+            "asyncWait": true
+          }
+        ],
+        "false": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": false,
+            "symbolExpression": "%s%PLC1.Global_Variables.TaperOrNot%/s%",
+            "valueType": "tchmi:general#/definitions/BOOL",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:general#/definitions/BOOL",
+              "value": false
+            },
+            "asyncWait": true
+          }
+        ],
+        "asyncWait": true
+      },
+      {
+        "objectType": "Condition",
+        "active": true,
+        "expressions": [
+          {
+            "compare1": {
+              "objectType": "Symbol",
+              "symbolExpression": "%ctrl%TcHmiCheckbox_4::ToggleState%/ctrl%"
+            },
+            "compare2": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:framework#/definitions/ToggleState",
+              "value": "Normal"
+            },
+            "compareOperator": "==",
+            "logic": null
+          }
+        ],
+        "true": [
+          {
+            "objectType": "WriteToSymbol",
+            "active": true,
+            "symbolExpression": "%s%PLC1.UserMode.Cryogenic_ChainProtection_On%/s%",
+            "valueType": "tchmi:general#/definitions/BOOL",
+            "value": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:general#/definitions/BOOL",
+              "value": false
+            },
+            "asyncWait": true
+          }
+        ],
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
 </div>
 
 </div>
