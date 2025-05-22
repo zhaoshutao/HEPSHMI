@@ -3297,6 +3297,19 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.MAIN.btn_RestartDriversAll": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::MAIN::btn_RestartDriversAll",
+            "OPTIONS": {
+                "comment": "RestartDrivers\r\nÃ–Ã˜Ã†Ã´Ã‡Ã½Â¶Â¯Ã†Ã·"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.MAIN.btn_setAxisPosition": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
@@ -4288,6 +4301,19 @@
             },
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.btn_OneKeyToMaxGap": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::btn_OneKeyToMaxGap",
+            "OPTIONS": {
+                "comment": "OneKeyToMaxGap"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
             },
             "USEMAPPING": true
         },

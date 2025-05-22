@@ -6676,4 +6676,66 @@
 </script>
 </div>
 
+<div id="TcHmiTextblock_288" data-tchmi-type="tchmi-textblock" data-tchmi-height="21" data-tchmi-height-unit="px" data-tchmi-left="832" data-tchmi-left-unit="px" data-tchmi-text="其它" data-tchmi-top="386" data-tchmi-top-unit="px" data-tchmi-width="163" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="4" data-tchmi-text-font-style="Italic" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size-unit="px">
+
+
+
+
+
+</div>
+
+<div id="TcHmiRectangle_94" data-tchmi-type="tchmi-rectangle" data-tchmi-height="151" data-tchmi-height-unit="px" data-tchmi-left="832" data-tchmi-left-unit="px" data-tchmi-top="413" data-tchmi-top-unit="px" data-tchmi-width="182" data-tchmi-width-unit="px" data-tchmi-zindex="1">
+
+
+<script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+{
+  "color": "rgba(102, 164, 246, 1)"
+}
+</script>
+</div>
+
+<div id="TcHmiButton_87" data-tchmi-type="tchmi-button" data-tchmi-height="28" data-tchmi-height-unit="px" data-tchmi-left="863" data-tchmi-left-unit="px" data-tchmi-text="重启全部驱动器" data-tchmi-top="434" data-tchmi-top-unit="px" data-tchmi-width="118" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="2">
+
+
+
+
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(30, 206, 149, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
+{
+  "color": "rgba(18, 18, 18, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "TcHmiButton_87.onPressed",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%s%PLC1.MAIN.btn_RestartDriversAll%/s%",
+        "valueType": "tchmi:general#/definitions/BOOL",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:general#/definitions/BOOL",
+          "value": true
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+</div>
+
 </div>
