@@ -2808,6 +2808,49 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.Global_Variables.max_UserGapPositionNew": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::max_UserGapPositionNew",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.max_UserTaperPositionNew": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::max_UserTaperPositionNew",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.min_UserGapPositionNew": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::min_UserGapPositionNew",
+            "OPTIONS": {
+                "comment": "input protection\r\n"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.min_UserTaperPositionNew": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::min_UserTaperPositionNew",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.Global_Variables.moveStatusAllAxis": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
