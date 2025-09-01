@@ -83,6 +83,9 @@
   <Target Name="ReBuild" DependsOnTargets="Clean; Build" />
   <Target Name="Clean" DependsOnTargets="BaseClean" />
   <ItemGroup>
+    <Content Include="CoilControl.view">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Parameters.view">
       <SubType>Content</SubType>
     </Content>

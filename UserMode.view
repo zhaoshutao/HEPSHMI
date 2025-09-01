@@ -8,7 +8,7 @@
      data-tchmi-background-image-height="100" data-tchmi-background-image-width="100"
      data-tchmi-background-image-height-unit="%" data-tchmi-background-image-width-unit="%" data-tchmi-zindex="4" data-tchmi-left-unit="px" data-tchmi-top-unit="px" data-tchmi-width-unit="px" data-tchmi-height-unit="px">
 
-<div id="TcHmiButton_53" data-tchmi-type="tchmi-button" data-tchmi-height="50" data-tchmi-height-unit="px" data-tchmi-left="905" data-tchmi-left-unit="px" data-tchmi-text="回到主菜单" data-tchmi-top="515" data-tchmi-top-unit="px" data-tchmi-width="106" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size="15" data-tchmi-zindex="4">
+<div id="TcHmiButton_53" data-tchmi-type="tchmi-button" data-tchmi-height="40" data-tchmi-height-unit="px" data-tchmi-left="904" data-tchmi-left-unit="px" data-tchmi-text="回到主菜单" data-tchmi-top="524" data-tchmi-top-unit="px" data-tchmi-width="106" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size="15" data-tchmi-zindex="4">
 
 
 <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
@@ -1681,7 +1681,7 @@
 
 </div>
 
-<div id="TcHmiButton_57" data-tchmi-type="tchmi-button" data-tchmi-height="50" data-tchmi-height-unit="px" data-tchmi-left="905" data-tchmi-left-unit="px" data-tchmi-text="重启程序" data-tchmi-top="177" data-tchmi-top-unit="px" data-tchmi-width="106" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-font-size="15" data-tchmi-text-font-size-unit="px" data-tchmi-zindex="4">
+<div id="TcHmiButton_57" data-tchmi-type="tchmi-button" data-tchmi-height="40" data-tchmi-height-unit="px" data-tchmi-left="904" data-tchmi-left-unit="px" data-tchmi-text="重启程序" data-tchmi-top="177" data-tchmi-top-unit="px" data-tchmi-width="106" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-font-size="15" data-tchmi-text-font-size-unit="px" data-tchmi-zindex="4">
 
 
 <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
@@ -1731,7 +1731,7 @@
 </script>
 </div>
 
-<div id="TcHmiButton_58" data-tchmi-type="tchmi-button" data-tchmi-height="50" data-tchmi-height-unit="px" data-tchmi-left="905" data-tchmi-left-unit="px" data-tchmi-text="急停" data-tchmi-top="309" data-tchmi-top-unit="px" data-tchmi-width="106" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-font-size="15" data-tchmi-text-font-size-unit="px" data-tchmi-zindex="4">
+<div id="TcHmiButton_58" data-tchmi-type="tchmi-button" data-tchmi-height="40" data-tchmi-height-unit="px" data-tchmi-left="904" data-tchmi-left-unit="px" data-tchmi-text="急停" data-tchmi-top="294" data-tchmi-top-unit="px" data-tchmi-width="106" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-font-size="15" data-tchmi-text-font-size-unit="px" data-tchmi-zindex="4">
 
 
 <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
@@ -2718,7 +2718,7 @@
 
 </div>
 
-<div id="TcHmiButton_65" data-tchmi-type="tchmi-button" data-tchmi-height="50" data-tchmi-height-unit="px" data-tchmi-left="905" data-tchmi-left-unit="px" data-tchmi-text="参数设置" data-tchmi-top="378" data-tchmi-top-unit="px" data-tchmi-width="106" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size="15" data-tchmi-zindex="4">
+<div id="TcHmiButton_65" data-tchmi-type="tchmi-button" data-tchmi-height="40" data-tchmi-height-unit="px" data-tchmi-left="904" data-tchmi-left-unit="px" data-tchmi-text="参数设置" data-tchmi-top="353" data-tchmi-top-unit="px" data-tchmi-width="106" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size="15" data-tchmi-zindex="4">
 
 
 <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
@@ -3929,7 +3929,7 @@
 
 </div>
 
-<div id="TcHmiButton_75" data-tchmi-type="tchmi-button" data-tchmi-height="50" data-tchmi-height-unit="px" data-tchmi-left="905" data-tchmi-left-unit="px" data-tchmi-text="RESET" data-tchmi-top="446" data-tchmi-top-unit="px" data-tchmi-width="106" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-font-size="15" data-tchmi-text-font-size-unit="px" data-tchmi-zindex="4">
+<div id="TcHmiButton_75" data-tchmi-type="tchmi-button" data-tchmi-height="40" data-tchmi-height-unit="px" data-tchmi-left="904" data-tchmi-left-unit="px" data-tchmi-text="RESET" data-tchmi-top="411" data-tchmi-top-unit="px" data-tchmi-width="106" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-font-size="15" data-tchmi-text-font-size-unit="px" data-tchmi-zindex="4">
 
 
 <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
@@ -4643,7 +4643,7 @@
 
 </div>
 
-<div id="TcHmiButton_86" data-tchmi-type="tchmi-button" data-tchmi-height="50" data-tchmi-height-unit="px" data-tchmi-left="905" data-tchmi-left-unit="px" data-tchmi-text="一键最大间隙" data-tchmi-top="239" data-tchmi-top-unit="px" data-tchmi-width="106" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-font-size="15" data-tchmi-text-font-size-unit="px" data-tchmi-zindex="6">
+<div id="TcHmiButton_86" data-tchmi-type="tchmi-button" data-tchmi-height="40" data-tchmi-height-unit="px" data-tchmi-left="904" data-tchmi-left-unit="px" data-tchmi-text="一键最大间隙" data-tchmi-top="236" data-tchmi-top-unit="px" data-tchmi-width="106" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-font-size="15" data-tchmi-text-font-size-unit="px" data-tchmi-zindex="6">
 
 
 <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
@@ -4671,6 +4671,53 @@
 <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
 {
   "color": "rgba(86, 237, 150, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
+{
+  "color": "rgba(13, 13, 13, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+{
+  "color": "rgba(119, 87, 240, 1)"
+}
+</script>
+</div>
+
+<div id="TcHmiButton_88" data-tchmi-type="tchmi-button" data-tchmi-height="40" data-tchmi-height-unit="px" data-tchmi-left="904" data-tchmi-left-unit="px" data-tchmi-text="电源控制" data-tchmi-top="468" data-tchmi-top-unit="px" data-tchmi-width="106" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-font-size="15" data-tchmi-text-font-size-unit="px" data-tchmi-zindex="4">
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "TcHmiButton_88.onPressed",
+    "actions": [
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "var v1 = TcHmi.View.get();",
+          "\nTcHmi.Log.debug(v1.getId());",
+          "\nTcHmi.View.load('CoilControl.view', function (data) {",
+          "\n\tvar v2 = TcHmi.View.get();",
+          "\n\tTcHmi.Log.debug(v2.getId());",
+          "\n});"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(54, 162, 141, 1)"
 }
 </script>
 

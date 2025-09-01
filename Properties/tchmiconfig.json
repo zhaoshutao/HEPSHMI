@@ -43,6 +43,10 @@
       "preload": false
     },
     {
+      "url": "CoilControl.view",
+      "preload": false
+    },
+    {
       "url": "DebugMode.view",
       "preload": false
     },
