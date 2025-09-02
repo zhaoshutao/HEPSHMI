@@ -2564,7 +2564,7 @@
       {
         "objectType": "WriteToSymbol",
         "active": true,
-        "symbolExpression": "%s%PLC1.PS3.btn_PowerOff_ChA%/s%",
+        "symbolExpression": "%s%PLC1.PS2.btn_PowerOff_ChA%/s%",
         "valueType": "tchmi:general#/definitions/BOOL",
         "value": {
           "objectType": "StaticValue",
