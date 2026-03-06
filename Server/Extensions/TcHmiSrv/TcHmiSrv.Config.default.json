@@ -2034,6 +2034,19 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.Global_Variables.BLTaperOrNot": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::BLTaperOrNot",
+            "OPTIONS": {
+                "comment": "ID taperÂ¹Â¦Ã„ÃœÂ¿ÂªÂ¹Ã˜Â£Â¬ÃˆÃ«Â¿ÃšÂµÃ§Â»ÃºÂ²Â»Â¶Â¯Â£Â¬Â³Ã¶Â¿ÃšÂµÃ§Â»ÃºÂ¶Â¯"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.Global_Variables.BottomPositionActual": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
@@ -2680,6 +2693,29 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.Global_Variables.MaintenanceMode": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::MaintenanceMode",
+            "OPTIONS": {
+                "comment": "Maintenance Mode"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.MaintenanceModeLed": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::MaintenanceModeLed",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.Global_Variables.Plc_EmergencyStop": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
@@ -2937,6 +2973,26 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.Global_Variables.max_BLUserTaperPositionNew": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::max_BLUserTaperPositionNew",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.max_BLUserTaperVelocityNew": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::max_BLUserTaperVelocityNew",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.Global_Variables.max_UserGapPositionNew": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
@@ -2952,6 +3008,26 @@
             "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "MAPPING": "PLC1::Global_Variables::max_UserTaperPositionNew",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.min_BLUserTaperPositionNew": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::min_BLUserTaperPositionNew",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.Global_Variables.min_BLUserTaperVelocityNew": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::min_BLUserTaperVelocityNew",
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/LREAL"
             },
@@ -4889,6 +4965,58 @@
             "MAPPING": "PLC1::TaperMode::btn_TaperStop",
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.BLUserTaperPositionDisplay": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::BLUserTaperPositionDisplay",
+            "OPTIONS": {
+                "comment": "current"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.BLUserTaperPositionNew": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::BLUserTaperPositionNew",
+            "OPTIONS": {
+                "comment": "target"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.BLUserTaperVelocityDisplay": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::BLUserTaperVelocityDisplay",
+            "OPTIONS": {
+                "comment": "target"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.UserMode.BLUserTaperVelocityNew": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::UserMode::BLUserTaperVelocityNew",
+            "OPTIONS": {
+                "comment": "target"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
             },
             "USEMAPPING": true
         },
