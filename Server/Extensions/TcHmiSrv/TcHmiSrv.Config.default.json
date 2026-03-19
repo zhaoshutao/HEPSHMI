@@ -4805,6 +4805,140 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.SAFE.TaperAndTileBottomAngleScale": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::SAFE::TaperAndTileBottomAngleScale",
+            "OPTIONS": {
+                "comment": "Â½Ã‡Â¶ÃˆÃ“Ã«taperÂµÃ„Â±ÃˆÃ€Ã½"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.SAFE.TaperAndTileTopAngleScale": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::SAFE::TaperAndTileTopAngleScale",
+            "OPTIONS": {
+                "comment": "Â½Ã‡Â¶ÃˆÃ“Ã«taperÂµÃ„Â±ÃˆÃ€Ã½"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.SAFE.TileSensorBottom_Error": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::SAFE::TileSensorBottom_Error",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.SAFE.TileSensorTop_Error": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::SAFE::TileSensorTop_Error",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.SAFE.TiltSensorBottomAngle": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::SAFE::TiltSensorBottomAngle",
+            "OPTIONS": {
+                "comment": "Â½Ã‡Â¶ÃˆÂ£Â¬ÂµÂ¥ÃŽÂ»Â£ÂºÂ¡Ã£"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/REAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.SAFE.TiltSensorBottomAngle_Filter": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::SAFE::TiltSensorBottomAngle_Filter",
+            "OPTIONS": {
+                "comment": "Ã‚Ã‹Â²Â¨ÂºÃ³Â½Ã‡Â¶ÃˆÂ£Â¬ÂµÂ¥ÃŽÂ»Â£ÂºÂ¡Ã£"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/REAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.SAFE.TiltSensorBottom_InitAngle": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::SAFE::TiltSensorBottom_InitAngle",
+            "OPTIONS": {
+                "comment": "TileMotorOffset: REAL;\r\nL_Center2Motor: INT:=1375;\r\nÂ³ÃµÃŠÂ¼Ã—Â¼Ã–Â±ÃÃ£ÃŽÂ»Â½Ã‡Â¶Ãˆ"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/REAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.SAFE.TiltSensorFunctionOn": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::SAFE::TiltSensorFunctionOn",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.SAFE.TiltSensorTopAngle": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::SAFE::TiltSensorTopAngle",
+            "OPTIONS": {
+                "comment": "Â½Ã‡Â¶ÃˆÂ£Â¬ÂµÂ¥ÃŽÂ»Â£ÂºÂ¡Ã£"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/REAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.SAFE.TiltSensorTopAngle_Filter": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::SAFE::TiltSensorTopAngle_Filter",
+            "OPTIONS": {
+                "comment": "Ã‚Ã‹Â²Â¨ÂºÃ³Â½Ã‡Â¶ÃˆÂ£Â¬ÂµÂ¥ÃŽÂ»Â£ÂºÂ¡Ã£"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/REAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.SAFE.TiltSensorTop_InitAngle": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::SAFE::TiltSensorTop_InitAngle",
+            "OPTIONS": {
+                "comment": "TileMotorOffset: REAL;\r\nL_Center2Motor: INT:=1375;\r\nÂ³ÃµÃŠÂ¼Ã—Â¼Ã–Â±ÃÃ£ÃŽÂ»Â½Ã‡Â¶Ãˆ"
+            },
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/REAL"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.SingleCarrierMode.BottomPositionNew": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",

@@ -3457,7 +3457,7 @@
 
 </div>
 
-<div id="TcHmiRectangle_64" data-tchmi-type="tchmi-rectangle" data-tchmi-height="103" data-tchmi-height-unit="px" data-tchmi-left="1053" data-tchmi-left-unit="px" data-tchmi-top="207" data-tchmi-top-unit="px" data-tchmi-width="171" data-tchmi-width-unit="px" data-tchmi-zindex="1">
+<div id="TcHmiRectangle_64" data-tchmi-type="tchmi-rectangle" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="1053" data-tchmi-left-unit="px" data-tchmi-top="200" data-tchmi-top-unit="px" data-tchmi-width="177" data-tchmi-width-unit="px" data-tchmi-zindex="1">
 
 
 <script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
@@ -3475,7 +3475,7 @@
 
 </div>
 
-<div id="TcHmiTextblock_203" data-tchmi-type="tchmi-textblock" data-tchmi-height="21" data-tchmi-height-unit="px" data-tchmi-left="1054" data-tchmi-left-unit="px" data-tchmi-text="Moving/NotMovng" data-tchmi-top="185" data-tchmi-top-unit="px" data-tchmi-width="163" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="6" data-tchmi-text-font-style="Italic" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size-unit="px">
+<div id="TcHmiTextblock_203" data-tchmi-type="tchmi-textblock" data-tchmi-height="21" data-tchmi-height-unit="px" data-tchmi-left="1053" data-tchmi-left-unit="px" data-tchmi-text="Moving/NotMovng" data-tchmi-top="174" data-tchmi-top-unit="px" data-tchmi-width="163" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-zindex="6" data-tchmi-text-font-style="Italic" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size-unit="px">
 
 
 
