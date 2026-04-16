@@ -3076,6 +3076,16 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.Global_Variables.moveStatusGap": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::Global_Variables::moveStatusGap",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.Global_Variables.moveStatusLeftBottom": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
