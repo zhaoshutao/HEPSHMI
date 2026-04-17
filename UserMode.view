@@ -3106,7 +3106,9 @@
             "value": {
               "objectType": "StaticValue",
               "valueType": "tchmi:framework#/definitions/SolidColor",
-              "value": null
+              "value": {
+                "color": "rgba(240, 5, 5, 1)"
+              }
             },
             "asyncWait": true
           }
