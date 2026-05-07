@@ -154,7 +154,7 @@
       {
         "objectType": "WriteToSymbol",
         "active": true,
-        "symbolExpression": "%s%PLC1.DebugMode.btn_LeftTopStop%/s%",
+        "symbolExpression": "%s%PLC1.DebugMode.btn_LeftTopLinStop%/s%",
         "valueType": "tchmi:general#/definitions/BOOL",
         "value": {
           "objectType": "StaticValue",
